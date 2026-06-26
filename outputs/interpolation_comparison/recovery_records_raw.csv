@@ -1,0 +1,1861 @@
+Method,Missing %,Condition,Boundary,Length,Gap_size,MAE,RMSE,R2,Bias
+Linear,5%,extreme_high_temp,crossing,medium,19,1.318,1.672,0.792,-0.71
+Linear,5%,stagnant_wind,rising,short,3,0.198,0.24,0.8885,0.126
+Linear,5%,normal,crossing,medium,19,1.302,1.667,0.6674,-1.08
+Linear,5%,normal,rising,long,39,1.978,2.306,0.3314,-0.644
+Linear,5%,normal,falling,medium,17,0.383,0.486,0.9005,0.058
+Linear,5%,high_temp,crossing,medium,15,1.086,1.196,0.2807,1.086
+Linear,5%,extreme_high_temp,stable,short,3,0.526,0.548,-5.3753,-0.526
+Linear,5%,stagnant_wind,stable,short,3,0.425,0.452,-62.9161,-0.425
+Linear,5%,low_temp,stable,medium,9,0.672,0.795,-0.4518,0.672
+Linear,5%,normal,crossing,medium,19,3.293,3.917,-0.682,3.293
+Linear,5%,extreme_high_temp,rising,medium,19,2.483,2.62,-1.7578,-2.483
+Linear,5%,stagnant_wind,crossing,short,3,0.04,0.05,-0.6391,-0.034
+Linear,5%,normal,crossing,long,47,3.694,4.077,-0.3422,1.351
+Linear,5%,stagnant_wind,stable,long,25,1.22,1.856,0.0279,-0.244
+Linear,5%,low_temp,crossing,medium,15,1.763,2.062,-0.7513,1.763
+Linear,5%,low_temp,crossing,short,3,0.137,0.159,0.9663,0.04
+Linear,5%,normal,stable,short,3,0.893,0.912,-25.5651,-0.893
+Linear,5%,low_temp,crossing,long,35,3.803,4.647,-0.7164,3.77
+Linear,5%,low_temp,crossing,short,3,0.42,0.427,0.9012,-0.192
+Linear,5%,stagnant_wind,stable,short,5,0.168,0.185,-0.8526,-0.155
+Linear,5%,normal,falling,medium,11,1.029,1.235,0.6469,-1.029
+Linear,5%,low_temp,crossing,short,5,0.874,1.01,0.5434,0.874
+Linear,5%,low_temp,crossing,medium,7,0.499,0.57,0.9245,0.308
+Linear,5%,normal,stable,short,5,0.311,0.361,-2.3265,-0.025
+Linear,5%,stagnant_wind,stable,medium,7,0.239,0.309,-0.4677,0.043
+Linear,5%,normal,crossing,medium,23,3.398,3.917,-0.7853,3.398
+Linear,5%,normal,stable,long,45,2.038,2.342,-3.7423,2.018
+Linear,5%,normal,crossing,medium,17,1.715,2.115,0.433,-1.674
+Linear,5%,stagnant_wind,stable,short,1,0.026,0.026,,-0.026
+Linear,5%,normal,stable,long,27,4.979,5.521,-4.1323,4.979
+Linear,5%,normal,stable,short,5,0.628,0.652,-12.1379,-0.628
+Linear,5%,normal,crossing,long,39,5.394,6.563,-2.4297,-5.365
+Linear,5%,normal,stable,medium,7,0.206,0.244,-0.1452,-0.204
+Linear,5%,normal,stable,long,42,2.048,2.384,0.0664,0.983
+Linear,5%,normal,crossing,medium,21,3.375,3.838,-4.6356,3.375
+Linear,5%,stagnant_wind,crossing,medium,7,0.263,0.323,0.5626,0.192
+Linear,5%,normal,rising,medium,13,1.134,1.326,0.8925,0.406
+Linear,5%,stagnant_wind,stable,short,2,0.259,0.335,-0.7686,-0.259
+Linear,5%,normal,crossing,long,37,1.836,2.072,0.4785,0.331
+Linear,5%,normal,crossing,medium,18,1.485,1.797,-0.1106,0.055
+Linear,5%,normal,falling,long,29,1.364,1.986,0.3078,-0.681
+Spline,5%,extreme_high_temp,crossing,medium,19,1.681,1.942,0.7193,-0.48
+Spline,5%,stagnant_wind,rising,short,3,0.725,0.932,-0.6802,-0.714
+Spline,5%,normal,crossing,medium,19,1.889,2.013,0.5151,0.253
+Spline,5%,normal,rising,long,39,2.693,2.913,-0.0675,0.761
+Spline,5%,normal,falling,medium,17,0.496,0.625,0.8357,0.101
+Spline,5%,high_temp,crossing,medium,15,1.658,1.715,-0.4797,1.658
+Spline,5%,extreme_high_temp,stable,short,3,2.02,2.026,-86.1959,-2.02
+Spline,5%,stagnant_wind,stable,short,3,1.45,1.476,-679.8365,-1.45
+Spline,5%,low_temp,stable,medium,9,0.465,0.638,0.0672,-0.386
+Spline,5%,normal,crossing,medium,19,4.444,4.909,-1.6419,4.444
+Spline,5%,extreme_high_temp,rising,medium,19,3.367,3.5,-3.9219,-3.367
+Spline,5%,stagnant_wind,crossing,short,3,1.205,1.212,-961.4865,-1.205
+Spline,5%,normal,crossing,long,47,5.972,6.973,-2.9262,4.65
+Spline,5%,stagnant_wind,stable,long,25,1.387,1.901,-0.0193,0.516
+Spline,5%,low_temp,crossing,medium,15,2.524,2.718,-2.0413,2.524
+Spline,5%,low_temp,crossing,short,3,2.28,2.328,-6.2354,2.28
+Spline,5%,normal,stable,short,3,3.679,3.687,-433.2617,-3.679
+Spline,5%,low_temp,crossing,long,35,5.088,5.89,-1.758,5.0
+Spline,5%,low_temp,crossing,short,3,1.087,1.375,-0.0227,0.857
+Spline,5%,stagnant_wind,stable,short,5,0.94,0.972,-50.2361,0.94
+Spline,5%,normal,falling,medium,11,1.61,1.788,0.2603,0.268
+Spline,5%,low_temp,crossing,short,5,3.047,3.135,-3.4035,3.047
+Spline,5%,low_temp,crossing,medium,7,1.701,2.011,0.0598,1.674
+Spline,5%,normal,stable,short,5,0.586,0.66,-10.1609,0.586
+Spline,5%,stagnant_wind,stable,medium,7,1.134,1.297,-24.8138,1.095
+Spline,5%,normal,crossing,medium,23,4.067,4.543,-1.4024,4.067
+Spline,5%,normal,stable,long,45,3.108,3.581,-10.0878,2.662
+Spline,5%,normal,crossing,medium,17,2.389,3.012,-0.1497,-1.888
+Spline,5%,stagnant_wind,stable,short,1,4.091,4.091,,4.091
+Spline,5%,normal,stable,long,27,6.58,6.796,-6.7781,6.58
+Spline,5%,normal,stable,short,5,0.725,0.782,-17.9286,-0.725
+Spline,5%,normal,crossing,long,39,9.759,10.724,-8.1568,-9.759
+Spline,5%,normal,stable,medium,7,0.984,0.994,-18.066,-0.984
+Spline,5%,normal,stable,long,42,4.416,5.373,-3.7401,4.227
+Spline,5%,normal,crossing,medium,21,1.447,1.861,-0.3252,1.282
+Spline,5%,stagnant_wind,crossing,medium,7,2.339,2.351,-22.1289,2.339
+Spline,5%,normal,rising,medium,13,0.903,1.049,0.9327,-0.004
+Spline,5%,stagnant_wind,stable,short,2,0.209,0.235,0.1267,0.107
+Spline,5%,normal,crossing,long,37,2.35,2.561,0.2031,-0.316
+Spline,5%,normal,crossing,medium,18,1.923,2.161,-0.6053,1.331
+Spline,5%,normal,falling,long,29,1.769,2.581,-0.169,-1.477
+Diagonal Climatology,5%,extreme_high_temp,crossing,medium,19,1.868,2.089,0.6753,-0.067
+Diagonal Climatology,5%,stagnant_wind,rising,short,3,0.595,0.75,-0.0902,-0.556
+Diagonal Climatology,5%,normal,crossing,medium,19,2.267,2.282,0.3766,2.267
+Diagonal Climatology,5%,normal,rising,long,39,0.568,0.641,0.9483,-0.109
+Diagonal Climatology,5%,normal,falling,medium,17,2.843,2.886,-2.5065,-2.843
+Diagonal Climatology,5%,high_temp,crossing,medium,15,1.689,1.753,-0.5452,-1.689
+Diagonal Climatology,5%,extreme_high_temp,stable,short,3,1.604,1.613,-54.2633,1.604
+Diagonal Climatology,5%,stagnant_wind,stable,short,3,0.455,0.458,-64.4028,-0.455
+Diagonal Climatology,5%,low_temp,stable,medium,9,0.515,0.636,0.0715,0.515
+Diagonal Climatology,5%,normal,crossing,medium,19,2.452,2.504,0.3126,2.452
+Diagonal Climatology,5%,extreme_high_temp,rising,medium,19,2.414,2.472,-1.4558,-2.414
+Diagonal Climatology,5%,stagnant_wind,crossing,short,3,0.083,0.087,-4.0157,-0.046
+Diagonal Climatology,5%,normal,crossing,long,47,1.215,1.395,0.8429,1.127
+Diagonal Climatology,5%,stagnant_wind,stable,long,25,2.677,3.2,-1.8895,2.545
+Diagonal Climatology,5%,low_temp,crossing,medium,15,1.21,1.273,0.3327,1.21
+Diagonal Climatology,5%,low_temp,crossing,short,3,1.252,1.27,-1.1553,1.252
+Diagonal Climatology,5%,normal,stable,short,3,0.624,0.644,-12.2434,0.624
+Diagonal Climatology,5%,low_temp,crossing,long,35,3.802,3.835,-0.1689,3.802
+Diagonal Climatology,5%,low_temp,crossing,short,3,0.515,0.614,0.7963,0.515
+Diagonal Climatology,5%,stagnant_wind,stable,short,5,0.215,0.264,-2.7766,0.057
+Diagonal Climatology,5%,normal,falling,medium,11,0.304,0.346,0.9723,0.272
+Diagonal Climatology,5%,low_temp,crossing,short,5,3.117,3.121,-3.3648,3.117
+Diagonal Climatology,5%,low_temp,crossing,medium,7,0.259,0.334,0.9741,-0.24
+Diagonal Climatology,5%,normal,stable,short,5,1.588,1.736,-76.1146,1.588
+Diagonal Climatology,5%,stagnant_wind,stable,medium,7,0.838,0.925,-12.1175,-0.838
+Diagonal Climatology,5%,normal,crossing,medium,23,2.419,2.442,0.3057,-2.419
+Diagonal Climatology,5%,normal,stable,long,45,1.402,1.695,-1.4848,-0.116
+Diagonal Climatology,5%,normal,crossing,medium,17,1.357,1.445,0.7352,0.038
+Diagonal Climatology,5%,stagnant_wind,stable,short,1,1.253,1.253,,-1.253
+Diagonal Climatology,5%,normal,stable,long,27,0.952,1.199,0.7578,-0.941
+Diagonal Climatology,5%,normal,stable,short,5,2.055,2.066,-131.0478,-2.055
+Diagonal Climatology,5%,normal,crossing,long,39,2.239,2.404,0.5397,2.239
+Diagonal Climatology,5%,normal,stable,medium,7,0.773,0.909,-14.9463,-0.773
+Diagonal Climatology,5%,normal,stable,long,42,0.685,0.85,0.8813,-0.52
+Diagonal Climatology,5%,normal,crossing,medium,21,0.877,1.007,0.612,0.877
+Diagonal Climatology,5%,stagnant_wind,crossing,medium,7,0.741,0.85,-2.0252,-0.709
+Diagonal Climatology,5%,normal,rising,medium,13,3.834,4.11,-0.0329,3.834
+Diagonal Climatology,5%,stagnant_wind,stable,short,2,0.425,0.436,-2.0012,0.099
+Diagonal Climatology,5%,normal,crossing,long,37,0.92,1.043,0.8678,0.879
+Diagonal Climatology,5%,normal,crossing,medium,18,0.904,1.13,0.5612,-0.396
+Diagonal Climatology,5%,normal,falling,long,29,1.719,2.31,0.0631,1.546
+LOCF,5%,extreme_high_temp,crossing,medium,19,4.223,5.124,-0.9548,3.581
+LOCF,5%,stagnant_wind,rising,short,3,1.136,1.344,-2.4975,-1.136
+LOCF,5%,normal,crossing,medium,19,2.8,3.688,-0.6285,2.291
+LOCF,5%,normal,rising,long,39,2.698,3.468,-0.5123,-2.018
+LOCF,5%,normal,falling,medium,17,2.987,3.361,-3.7576,2.987
+LOCF,5%,high_temp,crossing,medium,15,4.078,4.315,-8.363,4.078
+LOCF,5%,extreme_high_temp,stable,short,3,0.279,0.322,-1.205,-0.238
+LOCF,5%,stagnant_wind,stable,short,3,0.05,0.062,-0.2166,0.026
+LOCF,5%,low_temp,stable,medium,9,1.458,1.601,-4.8774,1.458
+LOCF,5%,normal,crossing,medium,19,2.432,3.037,-0.0112,-0.32
+LOCF,5%,extreme_high_temp,rising,medium,19,4.643,4.904,-8.6625,-4.643
+LOCF,5%,stagnant_wind,crossing,short,3,0.054,0.067,-1.9192,0.054
+LOCF,5%,normal,crossing,long,47,3.569,4.116,-0.3679,2.134
+LOCF,5%,stagnant_wind,stable,long,25,1.732,2.015,-0.1457,0.719
+LOCF,5%,low_temp,crossing,medium,15,1.116,1.638,-0.1047,-0.504
+LOCF,5%,low_temp,crossing,short,3,1.703,1.91,-3.8729,-1.703
+LOCF,5%,normal,stable,short,3,0.863,0.881,-23.8088,-0.863
+LOCF,5%,low_temp,crossing,long,35,3.331,3.687,-0.0804,1.006
+LOCF,5%,low_temp,crossing,short,3,2.635,2.965,-3.759,-2.635
+LOCF,5%,stagnant_wind,stable,short,5,0.131,0.143,-0.1034,-0.044
+LOCF,5%,normal,falling,medium,11,2.121,2.97,-1.0406,2.121
+LOCF,5%,low_temp,crossing,short,5,1.519,1.979,-0.754,-1.297
+LOCF,5%,low_temp,crossing,medium,7,2.983,3.634,-2.0682,-2.983
+LOCF,5%,normal,stable,short,5,0.611,0.643,-9.5675,-0.611
+LOCF,5%,stagnant_wind,stable,medium,7,0.443,0.504,-2.8996,-0.435
+LOCF,5%,normal,crossing,medium,23,2.56,2.934,-0.0021,0.133
+LOCF,5%,normal,stable,long,45,3.084,3.266,-8.2193,3.084
+LOCF,5%,normal,crossing,medium,17,2.837,3.328,-0.4031,1.783
+LOCF,5%,stagnant_wind,stable,short,1,0.092,0.092,,-0.092
+LOCF,5%,normal,stable,long,27,5.137,5.685,-4.4431,5.137
+LOCF,5%,normal,stable,short,5,0.304,0.333,-2.4343,-0.28
+LOCF,5%,normal,crossing,long,39,6.374,7.293,-3.2354,-6.374
+LOCF,5%,normal,stable,medium,7,0.461,0.514,-4.0964,-0.461
+LOCF,5%,normal,stable,long,42,2.249,2.48,-0.0098,0.245
+LOCF,5%,normal,crossing,medium,21,1.873,2.155,-0.7765,1.425
+LOCF,5%,stagnant_wind,crossing,medium,7,1.121,1.223,-5.2618,-1.121
+LOCF,5%,normal,rising,medium,13,5.151,6.497,-1.5809,-5.085
+LOCF,5%,stagnant_wind,stable,short,2,0.379,0.455,-2.2629,-0.379
+LOCF,5%,normal,crossing,long,37,2.604,3.287,-0.3127,-1.604
+LOCF,5%,normal,crossing,medium,18,1.522,1.741,-0.0421,0.35
+LOCF,5%,normal,falling,long,29,2.401,2.598,-0.1842,1.024
+Linear,10%,extreme_high_temp,crossing,medium,19,1.318,1.672,0.792,-0.71
+Linear,10%,stagnant_wind,rising,short,3,0.198,0.24,0.8885,0.126
+Linear,10%,normal,crossing,medium,19,1.302,1.667,0.6674,-1.08
+Linear,10%,normal,rising,long,39,1.978,2.306,0.3314,-0.644
+Linear,10%,normal,falling,medium,17,0.383,0.486,0.9005,0.058
+Linear,10%,high_temp,crossing,medium,15,1.086,1.196,0.2807,1.086
+Linear,10%,extreme_high_temp,stable,short,3,0.526,0.548,-5.3753,-0.526
+Linear,10%,stagnant_wind,stable,short,3,0.425,0.452,-62.9161,-0.425
+Linear,10%,low_temp,stable,medium,9,0.672,0.795,-0.4518,0.672
+Linear,10%,normal,crossing,medium,19,3.293,3.917,-0.682,3.293
+Linear,10%,extreme_high_temp,rising,medium,19,8.981,9.087,-32.1831,-8.981
+Linear,10%,stagnant_wind,crossing,short,3,0.04,0.05,-0.6391,-0.034
+Linear,10%,normal,crossing,long,47,3.694,4.077,-0.3422,1.351
+Linear,10%,stagnant_wind,stable,long,25,1.22,1.856,0.0279,-0.244
+Linear,10%,low_temp,crossing,medium,15,1.763,2.062,-0.7513,1.763
+Linear,10%,low_temp,crossing,short,3,0.137,0.159,0.9663,0.04
+Linear,10%,normal,stable,short,3,0.893,0.912,-25.5651,-0.893
+Linear,10%,low_temp,crossing,long,35,3.803,4.647,-0.7164,3.77
+Linear,10%,low_temp,crossing,short,3,0.42,0.427,0.9012,-0.192
+Linear,10%,stagnant_wind,stable,short,5,0.168,0.185,-0.8526,-0.155
+Linear,10%,normal,falling,medium,11,1.029,1.235,0.6469,-1.029
+Linear,10%,low_temp,crossing,short,5,0.874,1.01,0.5434,0.874
+Linear,10%,low_temp,crossing,medium,7,0.499,0.57,0.9245,0.308
+Linear,10%,normal,stable,short,5,0.311,0.361,-2.3265,-0.025
+Linear,10%,stagnant_wind,stable,medium,7,0.239,0.309,-0.4677,0.043
+Linear,10%,normal,crossing,medium,23,3.398,3.917,-0.7853,3.398
+Linear,10%,normal,stable,long,45,2.038,2.342,-3.7423,2.018
+Linear,10%,normal,crossing,medium,17,1.715,2.115,0.433,-1.674
+Linear,10%,stagnant_wind,stable,short,1,2.301,2.301,,2.301
+Linear,10%,normal,stable,long,27,4.979,5.521,-4.1323,4.979
+Linear,10%,normal,stable,short,5,0.628,0.652,-12.1379,-0.628
+Linear,10%,normal,crossing,long,39,5.394,6.563,-2.4297,-5.365
+Linear,10%,normal,stable,medium,7,0.206,0.244,-0.1452,-0.204
+Linear,10%,normal,stable,long,42,2.917,3.457,-0.9626,2.176
+Linear,10%,normal,crossing,medium,21,3.375,3.838,-4.6356,3.375
+Linear,10%,stagnant_wind,crossing,medium,7,0.263,0.323,0.5626,0.192
+Linear,10%,normal,rising,medium,13,1.134,1.326,0.8925,0.406
+Linear,10%,stagnant_wind,stable,short,2,0.259,0.335,-0.7686,-0.259
+Linear,10%,normal,crossing,long,37,1.836,2.072,0.4785,0.331
+Linear,10%,normal,crossing,medium,18,1.485,1.797,-0.1106,0.055
+Linear,10%,normal,falling,long,43,1.671,1.932,0.2678,0.612
+Linear,10%,normal,crossing,long,37,2.293,2.549,0.1652,1.844
+Linear,10%,normal,stable,long,41,1.941,2.701,-0.7337,-1.776
+Linear,10%,high_temp,crossing,medium,23,3.086,3.537,0.3678,-2.759
+Linear,10%,low_temp,stable,short,3,0.069,0.085,-0.3334,-0.031
+Linear,10%,normal,stable,long,37,2.006,2.471,-2.4512,2.002
+Linear,10%,low_temp,stable,short,1,0.053,0.053,,-0.053
+Linear,10%,high_temp,stable,long,28,3.74,4.502,-1.3684,-3.602
+Linear,10%,normal,rising,medium,7,0.527,0.587,0.6979,-0.527
+Linear,10%,normal,stable,medium,7,0.967,1.162,-0.9469,-0.967
+Linear,10%,high_temp,crossing,short,3,0.446,0.466,0.9209,-0.026
+Linear,10%,normal,crossing,medium,9,0.497,0.591,0.9499,0.324
+Linear,10%,normal,stable,medium,17,2.761,2.982,-5.6797,-2.761
+Linear,10%,stagnant_wind,stable,medium,9,1.135,1.482,-1.4574,0.777
+Linear,10%,normal,stable,long,33,5.391,5.982,-4.5303,5.391
+Linear,10%,normal,stable,medium,7,0.591,0.655,-0.7558,-0.591
+Linear,10%,low_temp,crossing,medium,21,2.382,2.737,-3.0571,2.382
+Linear,10%,normal,rising,short,3,0.103,0.137,0.9512,-0.058
+Linear,10%,normal,rising,long,25,1.995,2.215,-2.1611,1.995
+Linear,10%,high_temp,crossing,medium,19,0.869,1.011,0.8652,-0.833
+Linear,10%,normal,falling,short,3,1.458,1.849,-6.9875,1.458
+Linear,10%,normal,crossing,medium,17,2.793,3.285,0.2005,2.793
+Linear,10%,low_temp,rising,medium,17,2.9,3.259,-2.2567,2.9
+Linear,10%,normal,stable,short,3,0.5,0.509,-17.5856,0.5
+Linear,10%,normal,crossing,medium,23,1.558,1.816,0.7181,1.537
+Linear,10%,extreme_high_temp,stable,short,5,0.523,0.667,-1.1624,-0.523
+Linear,10%,normal,falling,short,5,0.622,0.666,0.5762,-0.622
+Linear,10%,normal,rising,short,5,0.769,0.779,0.4096,-0.769
+Linear,10%,normal,crossing,short,5,0.244,0.289,-1.2614,0.217
+Linear,10%,normal,stable,short,3,0.339,0.563,-0.5627,-0.339
+Linear,10%,normal,crossing,long,25,0.679,0.878,0.93,-0.495
+Linear,10%,stagnant_wind,stable,short,5,0.579,0.665,-0.9164,0.579
+Linear,10%,normal,rising,short,3,0.068,0.091,0.9847,0.035
+Linear,10%,extreme_high_temp,stable,short,5,0.323,0.362,-11.2555,-0.304
+Linear,10%,normal,rising,short,3,2.776,3.01,-4.9157,2.776
+Linear,10%,normal,crossing,long,39,3.957,4.978,-0.8994,-3.957
+Linear,10%,normal,crossing,medium,19,0.42,0.464,0.9372,0.18
+Linear,10%,extreme_high_temp,crossing,short,5,0.294,0.334,0.9218,-0.15
+Linear,10%,normal,falling,medium,12,0.91,1.187,-0.1501,0.583
+Linear,10%,normal,crossing,long,25,1.995,2.372,0.0128,1.995
+Linear,10%,normal,stable,long,37,2.648,3.688,-0.3867,-2.105
+Linear,10%,normal,rising,long,47,2.976,3.375,0.1689,-0.953
+Linear,10%,normal,crossing,medium,17,0.607,0.892,0.921,-0.581
+Spline,10%,extreme_high_temp,crossing,medium,19,1.955,2.165,0.6512,-0.217
+Spline,10%,stagnant_wind,rising,short,3,0.891,1.119,-1.4251,-0.891
+Spline,10%,normal,crossing,medium,19,1.34,1.578,0.7019,-0.879
+Spline,10%,normal,rising,long,39,3.005,4.026,-1.039,-2.746
+Spline,10%,normal,falling,medium,17,0.66,0.764,0.7542,0.554
+Spline,10%,high_temp,crossing,medium,15,1.232,1.354,0.0779,1.232
+Spline,10%,extreme_high_temp,stable,short,3,1.431,1.44,-43.0229,-1.431
+Spline,10%,stagnant_wind,stable,short,3,0.548,0.645,-128.8897,-0.548
+Spline,10%,low_temp,stable,medium,9,0.586,0.617,0.1275,0.118
+Spline,10%,normal,crossing,medium,19,3.665,4.18,-0.916,3.665
+Spline,10%,extreme_high_temp,rising,medium,19,14.1,14.269,-80.8074,-14.1
+Spline,10%,stagnant_wind,crossing,short,3,1.152,1.161,-882.0166,-1.152
+Spline,10%,normal,crossing,long,47,3.45,3.725,-0.1203,0.85
+Spline,10%,stagnant_wind,stable,long,25,2.06,2.623,-0.9413,-1.866
+Spline,10%,low_temp,crossing,medium,15,4.487,4.66,-7.9436,4.487
+Spline,10%,low_temp,crossing,short,3,2.163,2.212,-5.5331,2.163
+Spline,10%,normal,stable,short,3,3.828,3.847,-471.7173,-3.828
+Spline,10%,low_temp,crossing,long,35,5.159,5.961,-1.8248,5.12
+Spline,10%,low_temp,crossing,short,3,0.692,0.814,0.6417,0.083
+Spline,10%,stagnant_wind,stable,short,5,0.687,0.819,-35.4016,0.687
+Spline,10%,normal,falling,medium,11,1.839,2.18,-0.0996,-1.782
+Spline,10%,low_temp,crossing,short,5,3.171,3.319,-3.9369,3.171
+Spline,10%,low_temp,crossing,medium,7,1.149,1.425,0.5284,0.879
+Spline,10%,normal,stable,short,5,0.475,0.511,-5.6736,-0.316
+Spline,10%,stagnant_wind,stable,medium,7,0.393,0.508,-2.9637,-0.111
+Spline,10%,normal,crossing,medium,23,4.424,4.775,-1.6532,4.424
+Spline,10%,normal,stable,long,45,3.332,3.874,-11.9744,3.102
+Spline,10%,normal,crossing,medium,17,2.475,3.083,-0.2045,-1.818
+Spline,10%,stagnant_wind,stable,short,1,4.098,4.098,,4.098
+Spline,10%,normal,stable,long,27,7.629,7.885,-9.4682,7.629
+Spline,10%,normal,stable,short,5,0.909,0.935,-26.0669,-0.909
+Spline,10%,normal,crossing,long,39,9.466,10.517,-7.8061,-9.466
+Spline,10%,normal,stable,medium,7,1.666,1.673,-52.9657,-1.666
+Spline,10%,normal,stable,long,42,4.074,4.91,-2.9585,3.535
+Spline,10%,normal,crossing,medium,21,3.154,3.486,-3.6491,3.154
+Spline,10%,stagnant_wind,crossing,medium,7,2.553,2.561,-26.4666,2.553
+Spline,10%,normal,rising,medium,13,0.961,1.248,0.9047,-0.675
+Spline,10%,stagnant_wind,stable,short,2,0.348,0.477,-2.5944,-0.348
+Spline,10%,normal,crossing,long,37,2.184,2.363,0.3218,0.175
+Spline,10%,normal,crossing,medium,18,1.491,2.123,-0.5499,-0.872
+Spline,10%,normal,falling,long,43,1.769,2.141,0.1014,0.301
+Spline,10%,normal,crossing,long,37,4.438,4.64,-1.7672,3.651
+Spline,10%,normal,stable,long,41,4.543,5.167,-5.3432,-4.543
+Spline,10%,high_temp,crossing,medium,23,4.457,5.024,-0.2755,-4.324
+Spline,10%,low_temp,stable,short,3,1.783,1.831,-619.4339,1.783
+Spline,10%,normal,stable,long,37,5.56,5.808,-18.0634,5.56
+Spline,10%,low_temp,stable,short,1,2.321,2.321,,2.321
+Spline,10%,high_temp,stable,long,28,7.687,8.767,-7.9808,-7.687
+Spline,10%,normal,rising,medium,7,1.498,1.522,-1.0281,-1.498
+Spline,10%,normal,stable,medium,7,1.476,1.617,-2.7707,-1.318
+Spline,10%,high_temp,crossing,short,3,1.194,1.516,0.1637,0.878
+Spline,10%,normal,crossing,medium,9,0.914,1.204,0.7918,0.873
+Spline,10%,normal,stable,medium,17,4.467,4.6,-14.8989,-4.467
+Spline,10%,stagnant_wind,stable,medium,9,1.372,1.637,-1.9962,0.462
+Spline,10%,normal,stable,long,33,7.597,8.103,-9.1471,7.597
+Spline,10%,normal,stable,medium,7,2.509,2.533,-25.2894,-2.509
+Spline,10%,low_temp,crossing,medium,21,2.143,2.524,-2.4499,2.143
+Spline,10%,normal,rising,short,3,0.295,0.323,0.7283,-0.295
+Spline,10%,normal,rising,long,25,4.664,4.805,-13.8772,4.664
+Spline,10%,high_temp,crossing,medium,19,0.842,0.947,0.8819,-0.213
+Spline,10%,normal,falling,short,3,3.566,3.704,-31.0513,3.566
+Spline,10%,normal,crossing,medium,17,1.794,2.245,0.6267,1.588
+Spline,10%,low_temp,rising,medium,17,3.809,4.154,-4.2905,3.809
+Spline,10%,normal,stable,short,3,1.275,1.29,-118.3369,1.275
+Spline,10%,normal,crossing,medium,23,4.122,4.526,-0.7502,4.105
+Spline,10%,extreme_high_temp,stable,short,5,0.704,0.795,-2.0651,-0.661
+Spline,10%,normal,falling,short,5,0.529,0.627,0.6247,0.142
+Spline,10%,normal,rising,short,5,2.212,2.272,-4.0237,-2.212
+Spline,10%,normal,crossing,short,5,1.687,1.698,-77.035,1.687
+Spline,10%,normal,stable,short,3,3.08,3.136,-47.4803,-3.08
+Spline,10%,normal,crossing,long,25,0.782,0.845,0.9351,0.174
+Spline,10%,stagnant_wind,stable,short,5,4.672,4.697,-94.5773,4.672
+Spline,10%,normal,rising,short,3,0.351,0.365,0.7553,-0.351
+Spline,10%,extreme_high_temp,stable,short,5,0.318,0.37,-11.8619,-0.219
+Spline,10%,normal,rising,short,3,5.317,5.515,-18.8579,5.317
+Spline,10%,normal,crossing,long,39,7.442,8.162,-4.1066,-7.442
+Spline,10%,normal,crossing,medium,19,1.255,1.384,0.442,0.433
+Spline,10%,extreme_high_temp,crossing,short,5,0.522,0.587,0.7582,-0.522
+Spline,10%,normal,falling,medium,12,1.577,2.109,-2.6333,1.432
+Spline,10%,normal,crossing,long,25,2.067,2.427,-0.0335,2.067
+Spline,10%,normal,stable,long,37,3.369,4.583,-1.1422,-3.339
+Spline,10%,normal,rising,long,47,3.69,4.806,-0.6852,-3.51
+Spline,10%,normal,crossing,medium,17,0.666,0.855,0.9275,-0.602
+Diagonal Climatology,10%,extreme_high_temp,crossing,medium,19,1.867,2.098,0.6724,-0.106
+Diagonal Climatology,10%,stagnant_wind,rising,short,3,0.618,0.789,-0.2053,-0.601
+Diagonal Climatology,10%,normal,crossing,medium,19,2.23,2.245,0.397,2.23
+Diagonal Climatology,10%,normal,rising,long,39,0.574,0.644,0.9479,-0.103
+Diagonal Climatology,10%,normal,falling,medium,17,2.862,2.901,-2.5446,-2.862
+Diagonal Climatology,10%,high_temp,crossing,medium,15,1.606,1.705,-0.4614,-1.606
+Diagonal Climatology,10%,extreme_high_temp,stable,short,3,1.581,1.588,-52.5166,1.581
+Diagonal Climatology,10%,stagnant_wind,stable,short,3,0.437,0.44,-59.4037,-0.437
+Diagonal Climatology,10%,low_temp,stable,medium,9,0.515,0.636,0.0715,0.515
+Diagonal Climatology,10%,normal,crossing,medium,19,2.524,2.571,0.2755,2.524
+Diagonal Climatology,10%,extreme_high_temp,rising,medium,19,2.444,2.5,-1.5115,-2.444
+Diagonal Climatology,10%,stagnant_wind,crossing,short,3,0.065,0.067,-1.9255,-0.023
+Diagonal Climatology,10%,normal,crossing,long,47,1.32,1.5,0.8183,1.241
+Diagonal Climatology,10%,stagnant_wind,stable,long,25,2.679,3.201,-1.8907,2.548
+Diagonal Climatology,10%,low_temp,crossing,medium,15,1.223,1.288,0.317,1.223
+Diagonal Climatology,10%,low_temp,crossing,short,3,1.252,1.27,-1.1553,1.252
+Diagonal Climatology,10%,normal,stable,short,3,0.196,0.249,-0.9743,0.196
+Diagonal Climatology,10%,low_temp,crossing,long,35,3.686,3.715,-0.0969,3.686
+Diagonal Climatology,10%,low_temp,crossing,short,3,0.349,0.482,0.8745,0.349
+Diagonal Climatology,10%,stagnant_wind,stable,short,5,0.216,0.272,-3.001,0.089
+Diagonal Climatology,10%,normal,falling,medium,11,0.269,0.303,0.9787,0.218
+Diagonal Climatology,10%,low_temp,crossing,short,5,3.159,3.163,-3.4825,3.159
+Diagonal Climatology,10%,low_temp,crossing,medium,7,0.371,0.449,0.9531,-0.342
+Diagonal Climatology,10%,normal,stable,short,5,1.366,1.526,-58.6249,1.366
+Diagonal Climatology,10%,stagnant_wind,stable,medium,7,0.867,0.93,-12.254,-0.867
+Diagonal Climatology,10%,normal,crossing,medium,23,2.36,2.387,0.3369,-2.36
+Diagonal Climatology,10%,normal,stable,long,45,1.401,1.694,-1.4806,-0.116
+Diagonal Climatology,10%,normal,crossing,medium,17,1.414,1.487,0.7199,0.052
+Diagonal Climatology,10%,stagnant_wind,stable,short,1,1.3,1.3,,-1.3
+Diagonal Climatology,10%,normal,stable,long,27,0.892,1.109,0.7928,-0.89
+Diagonal Climatology,10%,normal,stable,short,5,2.05,2.061,-130.4299,-2.05
+Diagonal Climatology,10%,normal,crossing,long,39,2.298,2.459,0.5185,2.298
+Diagonal Climatology,10%,normal,stable,medium,7,0.773,0.909,-14.9463,-0.773
+Diagonal Climatology,10%,normal,stable,long,42,0.696,0.859,0.8789,-0.522
+Diagonal Climatology,10%,normal,crossing,medium,21,0.897,1.064,0.5666,0.897
+Diagonal Climatology,10%,stagnant_wind,crossing,medium,7,0.736,0.846,-1.9929,-0.705
+Diagonal Climatology,10%,normal,rising,medium,13,3.82,4.101,-0.0286,3.82
+Diagonal Climatology,10%,stagnant_wind,stable,short,2,0.443,0.445,-2.1219,0.041
+Diagonal Climatology,10%,normal,crossing,long,37,0.919,1.048,0.8665,0.877
+Diagonal Climatology,10%,normal,crossing,medium,18,0.902,1.129,0.5618,-0.391
+Diagonal Climatology,10%,normal,falling,long,43,1.252,1.847,0.3309,1.027
+Diagonal Climatology,10%,normal,crossing,long,37,1.067,1.331,0.7724,0.651
+Diagonal Climatology,10%,normal,stable,long,41,1.622,1.899,0.143,1.613
+Diagonal Climatology,10%,high_temp,crossing,medium,23,2.686,2.775,0.6107,-2.686
+Diagonal Climatology,10%,low_temp,stable,short,3,2.888,2.907,-1562.7115,2.888
+Diagonal Climatology,10%,normal,stable,long,37,0.952,1.077,0.3448,-0.945
+Diagonal Climatology,10%,low_temp,stable,short,1,0.977,0.977,,0.977
+Diagonal Climatology,10%,high_temp,stable,long,28,3.091,3.412,-0.3599,-3.091
+Diagonal Climatology,10%,normal,rising,medium,7,0.593,0.656,0.6231,0.593
+Diagonal Climatology,10%,normal,stable,medium,7,2.48,2.982,-11.8259,2.48
+Diagonal Climatology,10%,high_temp,crossing,short,3,4.047,4.229,-5.5116,4.047
+Diagonal Climatology,10%,normal,crossing,medium,9,0.759,0.852,0.8957,-0.713
+Diagonal Climatology,10%,normal,stable,medium,17,0.591,0.643,0.6897,-0.538
+Diagonal Climatology,10%,stagnant_wind,stable,medium,9,2.3,2.485,-5.9079,-2.3
+Diagonal Climatology,10%,normal,stable,long,33,0.823,1.072,0.8225,-0.221
+Diagonal Climatology,10%,normal,stable,medium,7,0.505,0.665,-0.8127,-0.474
+Diagonal Climatology,10%,low_temp,crossing,medium,21,1.19,1.462,-0.1574,1.18
+Diagonal Climatology,10%,normal,rising,short,3,2.152,2.153,-11.0844,2.152
+Diagonal Climatology,10%,normal,rising,long,25,0.424,0.514,0.8295,0.333
+Diagonal Climatology,10%,high_temp,crossing,medium,19,5.576,5.635,-3.1848,-5.576
+Diagonal Climatology,10%,normal,falling,short,3,10.502,10.529,-257.9473,10.502
+Diagonal Climatology,10%,normal,crossing,medium,17,1.398,1.462,0.8416,1.398
+Diagonal Climatology,10%,low_temp,rising,medium,17,2.534,2.719,-1.2665,2.534
+Diagonal Climatology,10%,normal,stable,short,3,1.108,1.111,-87.4087,-1.108
+Diagonal Climatology,10%,normal,crossing,medium,23,2.808,2.892,0.2854,-2.808
+Diagonal Climatology,10%,extreme_high_temp,stable,short,5,2.556,2.583,-31.407,-2.556
+Diagonal Climatology,10%,normal,falling,short,5,0.116,0.124,0.9853,0.055
+Diagonal Climatology,10%,normal,rising,short,5,0.447,0.522,0.7351,0.01
+Diagonal Climatology,10%,normal,crossing,short,5,0.162,0.188,0.0448,-0.092
+Diagonal Climatology,10%,normal,stable,short,3,1.336,1.474,-9.7122,-1.336
+Diagonal Climatology,10%,normal,crossing,long,25,0.548,0.623,0.9647,0.459
+Diagonal Climatology,10%,stagnant_wind,stable,short,5,3.191,3.225,-44.0637,-3.191
+Diagonal Climatology,10%,normal,rising,short,3,1.678,1.683,-4.2117,1.678
+Diagonal Climatology,10%,extreme_high_temp,stable,short,5,1.444,1.485,-205.8104,-1.444
+Diagonal Climatology,10%,normal,rising,short,3,5.769,5.936,-22.0051,5.769
+Diagonal Climatology,10%,normal,crossing,long,39,2.094,2.346,0.5781,2.094
+Diagonal Climatology,10%,normal,crossing,medium,19,0.485,0.589,0.899,0.326
+Diagonal Climatology,10%,extreme_high_temp,crossing,short,5,0.701,0.77,0.5834,-0.701
+Diagonal Climatology,10%,normal,falling,medium,12,1.48,1.499,-0.8353,-1.48
+Diagonal Climatology,10%,normal,crossing,long,25,4.179,4.296,-2.2386,-4.179
+Diagonal Climatology,10%,normal,stable,long,37,3.107,3.869,-0.5269,3.107
+Diagonal Climatology,10%,normal,rising,long,47,4.214,4.64,-0.5703,-4.214
+Diagonal Climatology,10%,normal,crossing,medium,17,1.67,1.753,0.695,1.67
+LOCF,10%,extreme_high_temp,crossing,medium,19,4.223,5.124,-0.9548,3.581
+LOCF,10%,stagnant_wind,rising,short,3,1.136,1.344,-2.4975,-1.136
+LOCF,10%,normal,crossing,medium,19,2.8,3.688,-0.6285,2.291
+LOCF,10%,normal,rising,long,39,2.698,3.468,-0.5123,-2.018
+LOCF,10%,normal,falling,medium,17,2.987,3.361,-3.7576,2.987
+LOCF,10%,high_temp,crossing,medium,15,4.078,4.315,-8.363,4.078
+LOCF,10%,extreme_high_temp,stable,short,3,0.279,0.322,-1.205,-0.238
+LOCF,10%,stagnant_wind,stable,short,3,0.05,0.062,-0.2166,0.026
+LOCF,10%,low_temp,stable,medium,9,1.458,1.601,-4.8774,1.458
+LOCF,10%,normal,crossing,medium,19,2.432,3.037,-0.0112,-0.32
+LOCF,10%,extreme_high_temp,rising,medium,19,9.74,9.867,-38.1228,-9.74
+LOCF,10%,stagnant_wind,crossing,short,3,0.054,0.067,-1.9192,0.054
+LOCF,10%,normal,crossing,long,47,3.569,4.116,-0.3679,2.134
+LOCF,10%,stagnant_wind,stable,long,25,1.732,2.015,-0.1457,0.719
+LOCF,10%,low_temp,crossing,medium,15,1.116,1.638,-0.1047,-0.504
+LOCF,10%,low_temp,crossing,short,3,1.703,1.91,-3.8729,-1.703
+LOCF,10%,normal,stable,short,3,0.863,0.881,-23.8088,-0.863
+LOCF,10%,low_temp,crossing,long,35,3.331,3.687,-0.0804,1.006
+LOCF,10%,low_temp,crossing,short,3,2.635,2.965,-3.759,-2.635
+LOCF,10%,stagnant_wind,stable,short,5,0.131,0.143,-0.1034,-0.044
+LOCF,10%,normal,falling,medium,11,2.121,2.97,-1.0406,2.121
+LOCF,10%,low_temp,crossing,short,5,1.519,1.979,-0.754,-1.297
+LOCF,10%,low_temp,crossing,medium,7,2.983,3.634,-2.0682,-2.983
+LOCF,10%,normal,stable,short,5,0.611,0.643,-9.5675,-0.611
+LOCF,10%,stagnant_wind,stable,medium,7,0.443,0.504,-2.8996,-0.435
+LOCF,10%,normal,crossing,medium,23,2.56,2.934,-0.0021,0.133
+LOCF,10%,normal,stable,long,45,3.084,3.266,-8.2193,3.084
+LOCF,10%,normal,crossing,medium,17,2.837,3.328,-0.4031,1.783
+LOCF,10%,stagnant_wind,stable,short,1,2.617,2.617,,2.617
+LOCF,10%,normal,stable,long,27,5.137,5.685,-4.4431,5.137
+LOCF,10%,normal,stable,short,5,0.304,0.333,-2.4343,-0.28
+LOCF,10%,normal,crossing,long,39,6.374,7.293,-3.2354,-6.374
+LOCF,10%,normal,stable,medium,7,0.461,0.514,-4.0964,-0.461
+LOCF,10%,normal,stable,long,42,3.08,3.849,-1.4331,2.954
+LOCF,10%,normal,crossing,medium,21,1.873,2.155,-0.7765,1.425
+LOCF,10%,stagnant_wind,crossing,medium,7,1.121,1.223,-5.2618,-1.121
+LOCF,10%,normal,rising,medium,13,5.151,6.497,-1.5809,-5.085
+LOCF,10%,stagnant_wind,stable,short,2,0.379,0.455,-2.2629,-0.379
+LOCF,10%,normal,crossing,long,37,2.604,3.287,-0.3127,-1.604
+LOCF,10%,normal,crossing,medium,18,1.522,1.741,-0.0421,0.35
+LOCF,10%,normal,falling,long,43,2.724,2.885,-0.6325,1.796
+LOCF,10%,normal,crossing,long,37,5.195,5.722,-3.2081,4.996
+LOCF,10%,normal,stable,long,41,1.876,2.633,-0.6475,-1.651
+LOCF,10%,high_temp,crossing,medium,23,7.703,8.811,-2.9232,-7.605
+LOCF,10%,low_temp,stable,short,3,0.076,0.077,-0.0833,0.021
+LOCF,10%,normal,stable,long,37,1.508,1.935,-1.1149,1.405
+LOCF,10%,low_temp,stable,short,1,0.018,0.018,,-0.018
+LOCF,10%,high_temp,stable,long,28,4.906,5.61,-2.6765,-4.786
+LOCF,10%,normal,rising,medium,7,2.711,2.914,-6.4383,-2.711
+LOCF,10%,normal,stable,medium,7,1.882,2.058,-5.1072,-1.882
+LOCF,10%,high_temp,crossing,short,3,2.979,3.409,-3.2302,2.979
+LOCF,10%,normal,crossing,medium,9,4.015,4.805,-2.3142,-4.015
+LOCF,10%,normal,stable,medium,17,2.476,2.727,-4.5853,-2.47
+LOCF,10%,stagnant_wind,stable,medium,9,0.74,0.985,-0.0849,-0.276
+LOCF,10%,normal,stable,long,33,5.105,5.694,-4.0115,5.095
+LOCF,10%,normal,stable,medium,7,0.37,0.533,-0.1623,0.199
+LOCF,10%,low_temp,crossing,medium,21,1.132,1.437,-0.1189,0.468
+LOCF,10%,normal,rising,short,3,1.867,1.967,-9.092,-1.867
+LOCF,10%,normal,rising,long,25,1.291,1.402,-0.2675,0.644
+LOCF,10%,high_temp,crossing,medium,19,5.124,5.817,-3.4601,-5.124
+LOCF,10%,normal,falling,short,3,2.702,2.78,-17.0544,2.702
+LOCF,10%,normal,crossing,medium,17,3.218,4.066,-0.2249,-1.742
+LOCF,10%,low_temp,rising,medium,17,1.789,2.032,-0.2658,0.931
+LOCF,10%,normal,stable,short,3,0.589,0.6,-24.8225,0.589
+LOCF,10%,normal,crossing,medium,23,7.087,7.869,-4.2914,7.087
+LOCF,10%,extreme_high_temp,stable,short,5,0.374,0.454,-0.0015,-0.018
+LOCF,10%,normal,falling,short,5,1.215,1.589,-1.4086,1.215
+LOCF,10%,normal,rising,short,5,3.109,3.27,-9.4051,-3.109
+LOCF,10%,normal,crossing,short,5,0.605,0.634,-9.8944,0.605
+LOCF,10%,normal,stable,short,3,0.328,0.537,-0.4196,-0.292
+LOCF,10%,normal,crossing,long,25,4.485,5.548,-1.7973,4.447
+LOCF,10%,stagnant_wind,stable,short,5,0.401,0.487,-0.0263,-0.078
+LOCF,10%,normal,rising,short,3,1.75,1.899,-5.6355,-1.75
+LOCF,10%,extreme_high_temp,stable,short,5,0.093,0.108,-0.0936,0.032
+LOCF,10%,normal,rising,short,3,1.249,1.547,-0.5616,0.927
+LOCF,10%,normal,crossing,long,39,3.717,4.373,-0.4655,-2.464
+LOCF,10%,normal,crossing,medium,19,2.567,3.163,-1.914,-2.564
+LOCF,10%,extreme_high_temp,crossing,short,5,2.147,2.457,-3.2402,-2.147
+LOCF,10%,normal,falling,medium,12,0.994,1.325,-0.4352,0.73
+LOCF,10%,normal,crossing,long,25,1.723,2.826,-0.4013,-1.512
+LOCF,10%,normal,stable,long,37,3.169,4.256,-0.8468,-2.882
+LOCF,10%,normal,rising,long,47,3.697,4.238,-0.3098,-2.061
+LOCF,10%,normal,crossing,medium,17,4.302,5.266,-1.7537,4.203
+Linear,15%,extreme_high_temp,crossing,medium,19,1.318,1.672,0.792,-0.71
+Linear,15%,stagnant_wind,rising,short,3,0.198,0.24,0.8885,0.126
+Linear,15%,normal,crossing,medium,19,1.302,1.667,0.6674,-1.08
+Linear,15%,normal,rising,long,39,1.978,2.306,0.3314,-0.644
+Linear,15%,normal,falling,medium,17,0.383,0.486,0.9005,0.058
+Linear,15%,high_temp,crossing,medium,15,1.086,1.196,0.2807,1.086
+Linear,15%,extreme_high_temp,stable,short,3,0.526,0.548,-5.3753,-0.526
+Linear,15%,stagnant_wind,stable,short,3,0.425,0.452,-62.9161,-0.425
+Linear,15%,low_temp,stable,medium,9,0.672,0.795,-0.4518,0.672
+Linear,15%,normal,crossing,medium,19,3.293,3.917,-0.682,3.293
+Linear,15%,extreme_high_temp,rising,medium,19,8.981,9.087,-32.1831,-8.981
+Linear,15%,stagnant_wind,crossing,short,3,0.04,0.05,-0.6391,-0.034
+Linear,15%,normal,crossing,long,47,3.694,4.077,-0.3422,1.351
+Linear,15%,stagnant_wind,stable,long,25,1.22,1.856,0.0279,-0.244
+Linear,15%,low_temp,crossing,medium,15,1.763,2.062,-0.7513,1.763
+Linear,15%,low_temp,crossing,short,3,0.137,0.159,0.9663,0.04
+Linear,15%,normal,stable,short,3,0.893,0.912,-25.5651,-0.893
+Linear,15%,low_temp,crossing,long,35,3.65,4.455,-0.5774,3.486
+Linear,15%,low_temp,crossing,short,3,0.42,0.427,0.9012,-0.192
+Linear,15%,stagnant_wind,stable,short,5,0.168,0.185,-0.8526,-0.155
+Linear,15%,normal,falling,medium,11,1.029,1.235,0.6469,-1.029
+Linear,15%,low_temp,crossing,short,5,0.874,1.01,0.5434,0.874
+Linear,15%,low_temp,crossing,medium,7,0.499,0.57,0.9245,0.308
+Linear,15%,normal,stable,short,5,0.311,0.361,-2.3265,-0.025
+Linear,15%,stagnant_wind,stable,medium,7,0.239,0.309,-0.4677,0.043
+Linear,15%,normal,crossing,medium,23,3.398,3.917,-0.7853,3.398
+Linear,15%,normal,stable,long,45,2.495,2.821,-5.8804,2.49
+Linear,15%,normal,crossing,medium,17,1.765,1.993,0.4965,0.093
+Linear,15%,stagnant_wind,stable,short,1,2.301,2.301,,2.301
+Linear,15%,normal,stable,long,27,4.979,5.521,-4.1323,4.979
+Linear,15%,normal,stable,short,5,0.628,0.652,-12.1379,-0.628
+Linear,15%,normal,crossing,long,39,5.394,6.563,-2.4297,-5.365
+Linear,15%,normal,stable,medium,7,0.206,0.244,-0.1452,-0.204
+Linear,15%,normal,stable,long,42,2.917,3.457,-0.9626,2.176
+Linear,15%,normal,crossing,medium,21,3.375,3.838,-4.6356,3.375
+Linear,15%,stagnant_wind,crossing,medium,7,0.263,0.323,0.5626,0.192
+Linear,15%,normal,rising,medium,13,1.134,1.326,0.8925,0.406
+Linear,15%,stagnant_wind,stable,short,2,0.259,0.335,-0.7686,-0.259
+Linear,15%,normal,crossing,long,37,1.836,2.072,0.4785,0.331
+Linear,15%,normal,crossing,medium,18,1.485,1.797,-0.1106,0.055
+Linear,15%,normal,falling,long,43,1.671,1.932,0.2678,0.612
+Linear,15%,normal,crossing,long,37,2.293,2.549,0.1652,1.844
+Linear,15%,normal,stable,long,41,1.941,2.701,-0.7337,-1.776
+Linear,15%,high_temp,crossing,medium,23,3.086,3.537,0.3678,-2.759
+Linear,15%,low_temp,stable,short,3,0.069,0.085,-0.3334,-0.031
+Linear,15%,normal,stable,long,37,2.006,2.471,-2.4512,2.002
+Linear,15%,low_temp,stable,short,1,0.053,0.053,,-0.053
+Linear,15%,high_temp,stable,long,28,3.74,4.502,-1.3684,-3.602
+Linear,15%,normal,rising,medium,7,1.234,1.295,-0.469,-1.234
+Linear,15%,normal,stable,medium,7,0.967,1.162,-0.9469,-0.967
+Linear,15%,high_temp,crossing,short,3,5.366,5.624,-10.5152,-5.366
+Linear,15%,normal,crossing,medium,9,0.497,0.591,0.9499,0.324
+Linear,15%,normal,stable,medium,17,2.761,2.982,-5.6797,-2.761
+Linear,15%,stagnant_wind,stable,medium,9,1.135,1.482,-1.4574,0.777
+Linear,15%,normal,stable,long,33,5.391,5.982,-4.5303,5.391
+Linear,15%,normal,stable,medium,7,0.591,0.655,-0.7558,-0.591
+Linear,15%,low_temp,crossing,medium,21,2.382,2.737,-3.0571,2.382
+Linear,15%,normal,rising,short,3,0.36,0.361,0.6602,-0.36
+Linear,15%,normal,rising,long,25,1.995,2.215,-2.1611,1.995
+Linear,15%,high_temp,crossing,medium,19,0.869,1.011,0.8652,-0.833
+Linear,15%,normal,falling,short,3,1.458,1.849,-6.9875,1.458
+Linear,15%,normal,crossing,medium,17,2.793,3.285,0.2005,2.793
+Linear,15%,low_temp,rising,medium,17,2.9,3.259,-2.2567,2.9
+Linear,15%,normal,stable,short,3,0.5,0.509,-17.5856,0.5
+Linear,15%,normal,crossing,medium,23,1.558,1.816,0.7181,1.537
+Linear,15%,extreme_high_temp,stable,short,5,0.523,0.667,-1.1624,-0.523
+Linear,15%,normal,falling,short,5,0.622,0.666,0.5762,-0.622
+Linear,15%,normal,rising,short,5,0.769,0.779,0.4096,-0.769
+Linear,15%,normal,crossing,short,5,0.244,0.289,-1.2614,0.217
+Linear,15%,normal,stable,short,3,0.339,0.563,-0.5627,-0.339
+Linear,15%,normal,crossing,long,25,0.679,0.878,0.93,-0.495
+Linear,15%,stagnant_wind,stable,short,5,0.579,0.665,-0.9164,0.579
+Linear,15%,normal,rising,short,3,0.068,0.091,0.9847,0.035
+Linear,15%,extreme_high_temp,stable,short,5,0.323,0.362,-11.2555,-0.304
+Linear,15%,normal,rising,short,3,2.776,3.01,-4.9157,2.776
+Linear,15%,normal,crossing,long,39,4.048,4.334,-0.4401,-1.292
+Linear,15%,normal,crossing,medium,19,0.42,0.464,0.9372,0.18
+Linear,15%,extreme_high_temp,crossing,short,5,0.294,0.334,0.9218,-0.15
+Linear,15%,normal,falling,medium,12,0.91,1.187,-0.1501,0.583
+Linear,15%,normal,crossing,long,25,1.927,2.316,0.0584,1.927
+Linear,15%,normal,stable,long,37,2.65,3.639,-0.3505,-2.003
+Linear,15%,normal,rising,long,47,2.976,3.375,0.1689,-0.953
+Linear,15%,normal,crossing,medium,17,0.607,0.892,0.921,-0.581
+Linear,15%,normal,crossing,medium,11,1.464,1.636,0.6505,0.076
+Linear,15%,normal,falling,short,1,0.029,0.029,,-0.029
+Linear,15%,high_temp,crossing,short,5,0.218,0.24,0.9396,-0.155
+Linear,15%,high_temp,stable,short,5,0.167,0.184,-0.1779,-0.15
+Linear,15%,extreme_high_temp,crossing,medium,17,2.446,2.697,-4.2788,-2.446
+Linear,15%,normal,falling,medium,9,2.202,2.399,-3.4526,-2.202
+Linear,15%,normal,stable,short,3,0.205,0.238,-0.0885,-0.205
+Linear,15%,extreme_high_temp,crossing,short,5,0.295,0.349,0.9362,-0.221
+Linear,15%,normal,crossing,long,29,2.645,3.277,0.1208,1.231
+Linear,15%,normal,crossing,medium,17,0.95,1.131,0.8278,-0.945
+Linear,15%,normal,stable,short,3,0.614,0.669,-3.3368,0.614
+Linear,15%,normal,stable,short,5,0.134,0.148,0.4855,-0.001
+Linear,15%,extreme_high_temp,stable,short,3,0.325,0.379,-0.5027,-0.325
+Linear,15%,normal,stable,short,2,0.429,0.451,-40.497,-0.429
+Linear,15%,normal,stable,short,1,0.199,0.199,,0.199
+Linear,15%,normal,rising,short,3,0.109,0.136,0.9633,0.109
+Linear,15%,normal,rising,long,29,3.906,4.544,-0.0391,2.9
+Linear,15%,normal,falling,short,3,0.663,0.665,0.1269,-0.663
+Linear,15%,high_temp,crossing,medium,11,0.342,0.394,0.9733,0.074
+Linear,15%,low_temp,crossing,medium,17,0.241,0.313,0.6299,-0.117
+Linear,15%,extreme_high_temp,crossing,medium,9,0.394,0.438,0.9606,-0.135
+Linear,15%,normal,stable,long,44,3.658,5.063,-0.7126,-3.292
+Linear,15%,normal,rising,short,5,0.345,0.366,0.8651,-0.345
+Linear,15%,normal,stable,short,5,0.193,0.228,-0.576,-0.182
+Linear,15%,stagnant_wind,crossing,short,5,0.67,0.86,0.7939,0.33
+Linear,15%,normal,falling,medium,13,0.381,0.486,0.8554,0.024
+Linear,15%,normal,rising,short,3,0.806,0.809,-0.0125,-0.806
+Linear,15%,normal,crossing,short,5,0.471,0.537,0.6238,-0.471
+Linear,15%,extreme_high_temp,crossing,short,5,0.981,1.081,0.769,-0.485
+Linear,15%,low_temp,stable,short,3,0.515,0.552,-4.962,0.515
+Linear,15%,normal,stable,short,5,1.176,1.244,-16.7044,-1.176
+Linear,15%,extreme_high_temp,crossing,long,31,4.572,5.387,-0.5561,-4.377
+Linear,15%,normal,falling,medium,11,0.454,0.495,0.9257,-0.061
+Linear,15%,stagnant_wind,crossing,medium,10,1.428,1.877,-3.8081,1.345
+Linear,15%,normal,falling,long,25,1.083,1.438,0.2492,-0.866
+Linear,15%,normal,stable,long,29,2.711,2.902,-7.9184,2.711
+Linear,15%,normal,crossing,medium,21,2.804,3.491,-0.7442,2.791
+Linear,15%,extreme_high_temp,rising,medium,9,0.529,0.572,0.4157,-0.529
+Linear,15%,normal,stable,long,49,2.569,3.141,-1.1342,1.935
+Linear,15%,normal,stable,medium,15,5.093,5.815,-3.2912,-5.023
+Linear,15%,normal,crossing,short,4,0.405,0.542,0.9663,0.089
+Linear,15%,high_temp,crossing,short,3,0.548,0.596,0.558,-0.548
+Linear,15%,normal,stable,short,1,0.048,0.048,,0.048
+Linear,15%,low_temp,stable,medium,21,1.592,1.717,-67.558,1.592
+Linear,15%,low_temp,crossing,medium,11,1.33,1.579,0.4522,1.33
+Linear,15%,normal,stable,short,1,0.165,0.165,,-0.165
+Linear,15%,normal,crossing,medium,11,0.715,0.833,0.908,-0.703
+Linear,15%,normal,stable,long,49,2.175,2.495,-0.4624,-0.56
+Linear,15%,normal,stable,medium,21,0.889,1.109,-1.3559,0.87
+Linear,15%,normal,crossing,medium,13,0.582,0.694,0.9184,0.493
+Linear,15%,normal,rising,medium,12,2.087,2.288,0.7364,0.452
+Linear,15%,normal,falling,short,1,0.129,0.129,,0.129
+Linear,15%,normal,stable,short,5,0.915,1.177,-0.7098,-0.906
+Linear,15%,extreme_high_temp,falling,short,5,0.411,0.544,0.7062,-0.411
+Linear,15%,stagnant_wind,crossing,medium,13,2.479,2.67,-2.956,2.479
+Linear,15%,stagnant_wind,stable,short,1,0.04,0.04,,-0.04
+Linear,15%,low_temp,crossing,medium,19,2.569,2.792,-5.4336,2.569
+Spline,15%,extreme_high_temp,crossing,medium,19,1.721,2.433,0.5594,-1.653
+Spline,15%,stagnant_wind,rising,short,3,1.182,1.382,-2.6987,-1.182
+Spline,15%,normal,crossing,medium,19,1.173,1.407,0.7631,-0.799
+Spline,15%,normal,rising,long,39,2.853,3.399,-0.453,-1.608
+Spline,15%,normal,falling,medium,17,0.999,1.209,0.3846,-0.973
+Spline,15%,high_temp,crossing,medium,15,0.42,0.508,0.8702,0.309
+Spline,15%,extreme_high_temp,stable,short,3,1.5,1.507,-47.2377,-1.5
+Spline,15%,stagnant_wind,stable,short,3,1.014,1.073,-358.8938,-1.014
+Spline,15%,low_temp,stable,medium,9,0.49,0.634,0.079,-0.239
+Spline,15%,normal,crossing,medium,19,3.626,4.138,-0.8777,3.626
+Spline,15%,extreme_high_temp,rising,medium,19,11.668,11.795,-54.8988,-11.668
+Spline,15%,stagnant_wind,crossing,short,3,0.628,0.629,-258.5785,-0.628
+Spline,15%,normal,crossing,long,47,4.799,5.132,-1.1265,0.237
+Spline,15%,stagnant_wind,stable,long,25,1.914,2.441,-0.6812,-1.612
+Spline,15%,low_temp,crossing,medium,15,3.064,3.304,-3.4953,3.064
+Spline,15%,low_temp,crossing,short,3,1.661,1.706,-2.8852,1.661
+Spline,15%,normal,stable,short,3,2.963,2.989,-284.4032,-2.963
+Spline,15%,low_temp,crossing,long,35,4.298,4.994,-0.9826,3.952
+Spline,15%,low_temp,crossing,short,3,0.828,1.03,0.4254,0.458
+Spline,15%,stagnant_wind,stable,short,5,1.6,1.645,-145.713,1.6
+Spline,15%,normal,falling,medium,11,1.346,1.486,0.4893,-0.776
+Spline,15%,low_temp,crossing,short,5,2.793,2.959,-2.9229,2.793
+Spline,15%,low_temp,crossing,medium,7,1.178,1.401,0.5437,1.127
+Spline,15%,normal,stable,short,5,0.791,0.834,-16.8043,0.791
+Spline,15%,stagnant_wind,stable,medium,7,1.302,1.361,-27.4147,1.302
+Spline,15%,normal,crossing,medium,23,1.877,2.26,0.4057,1.835
+Spline,15%,normal,stable,long,45,3.785,4.402,-15.7484,3.535
+Spline,15%,normal,crossing,medium,17,3.319,3.818,-0.8468,-3.291
+Spline,15%,stagnant_wind,stable,short,1,6.48,6.48,,6.48
+Spline,15%,normal,stable,long,27,6.631,7.048,-7.3658,6.631
+Spline,15%,normal,stable,short,5,1.209,1.234,-46.1362,-1.209
+Spline,15%,normal,crossing,long,39,9.504,10.521,-7.8135,-9.504
+Spline,15%,normal,stable,medium,7,1.561,1.573,-46.706,-1.561
+Spline,15%,normal,stable,long,42,5.359,6.492,-5.9212,5.03
+Spline,15%,normal,crossing,medium,21,2.887,3.248,-3.0359,2.887
+Spline,15%,stagnant_wind,crossing,medium,7,0.883,0.902,-2.4026,0.883
+Spline,15%,normal,rising,medium,13,1.172,1.316,0.8941,0.065
+Spline,15%,stagnant_wind,stable,short,2,1.046,1.083,-17.5048,1.046
+Spline,15%,normal,crossing,long,37,1.843,2.102,0.4631,-0.302
+Spline,15%,normal,crossing,medium,18,1.449,1.995,-0.3686,-0.564
+Spline,15%,normal,falling,long,43,3.328,3.545,-1.4646,2.676
+Spline,15%,normal,crossing,long,37,3.417,3.659,-0.721,2.953
+Spline,15%,normal,stable,long,41,5.535,6.092,-7.8195,-5.535
+Spline,15%,high_temp,crossing,medium,23,3.062,3.416,0.4103,-2.644
+Spline,15%,low_temp,stable,short,3,1.946,1.959,-708.6092,1.946
+Spline,15%,normal,stable,long,37,4.454,4.757,-11.7894,4.454
+Spline,15%,low_temp,stable,short,1,0.451,0.451,,0.451
+Spline,15%,high_temp,stable,long,28,5.343,6.366,-3.7344,-5.334
+Spline,15%,normal,rising,medium,7,3.386,3.406,-9.162,-3.386
+Spline,15%,normal,stable,medium,7,1.506,1.636,-2.8619,-0.977
+Spline,15%,high_temp,crossing,short,3,2.685,3.186,-2.6942,-2.685
+Spline,15%,normal,crossing,medium,9,0.88,1.039,0.8449,0.542
+Spline,15%,normal,stable,medium,17,4.274,4.43,-13.7468,-4.274
+Spline,15%,stagnant_wind,stable,medium,9,2.042,2.536,-6.1937,2.042
+Spline,15%,normal,stable,long,33,9.758,10.219,-15.1401,9.758
+Spline,15%,normal,stable,medium,7,1.257,1.287,-5.7942,-1.257
+Spline,15%,low_temp,crossing,medium,21,1.561,2.059,-1.2959,1.383
+Spline,15%,normal,rising,short,3,0.37,0.456,0.4589,-0.041
+Spline,15%,normal,rising,long,25,4.338,4.481,-11.9362,4.338
+Spline,15%,high_temp,crossing,medium,19,1.529,1.709,0.6151,-0.489
+Spline,15%,normal,falling,short,3,4.534,4.612,-48.6756,4.534
+Spline,15%,normal,crossing,medium,17,3.296,3.633,0.0222,3.296
+Spline,15%,low_temp,rising,medium,17,4.382,4.646,-5.6175,4.382
+Spline,15%,normal,stable,short,3,2.512,2.518,-453.3322,2.512
+Spline,15%,normal,crossing,medium,23,4.359,4.77,-0.9443,4.355
+Spline,15%,extreme_high_temp,stable,short,5,1.169,1.319,-7.4459,-1.144
+Spline,15%,normal,falling,short,5,0.662,0.746,0.4693,-0.523
+Spline,15%,normal,rising,short,5,1.898,2.079,-3.2068,-1.898
+Spline,15%,normal,crossing,short,5,0.463,0.589,-8.3772,-0.463
+Spline,15%,normal,stable,short,3,2.498,2.572,-31.6057,-2.498
+Spline,15%,normal,crossing,long,25,0.742,1.104,0.8892,-0.707
+Spline,15%,stagnant_wind,stable,short,5,4.868,4.894,-102.7526,4.868
+Spline,15%,normal,rising,short,3,0.906,0.915,-0.5411,-0.906
+Spline,15%,extreme_high_temp,stable,short,5,0.179,0.197,-2.6495,-0.179
+Spline,15%,normal,rising,short,3,5.858,6.062,-22.9961,5.858
+Spline,15%,normal,crossing,long,39,4.781,5.958,-1.721,-4.513
+Spline,15%,normal,crossing,medium,19,0.832,0.907,0.7607,0.283
+Spline,15%,extreme_high_temp,crossing,short,5,0.96,1.003,0.2936,-0.96
+Spline,15%,normal,falling,medium,12,3.42,3.867,-11.2191,3.42
+Spline,15%,normal,crossing,long,25,1.723,1.884,0.3772,-1.653
+Spline,15%,normal,stable,long,37,2.708,3.13,0.0009,0.162
+Spline,15%,normal,rising,long,47,3.323,3.955,-0.1412,-2.174
+Spline,15%,normal,crossing,medium,17,0.545,0.663,0.9563,0.211
+Spline,15%,normal,crossing,medium,11,1.792,2.102,0.4229,1.115
+Spline,15%,normal,falling,short,1,0.219,0.219,,0.219
+Spline,15%,high_temp,crossing,short,5,0.445,0.483,0.7561,-0.109
+Spline,15%,high_temp,stable,short,5,0.93,0.989,-33.0613,-0.93
+Spline,15%,extreme_high_temp,crossing,medium,17,3.754,3.976,-10.4727,-3.754
+Spline,15%,normal,falling,medium,9,2.833,2.973,-5.8364,-2.833
+Spline,15%,normal,stable,short,3,0.18,0.262,-0.314,0.18
+Spline,15%,extreme_high_temp,crossing,short,5,0.516,0.56,0.8359,-0.366
+Spline,15%,normal,crossing,long,29,3.223,3.566,-0.0409,-2.078
+Spline,15%,normal,crossing,medium,17,0.892,1.007,0.8635,0.28
+Spline,15%,normal,stable,short,3,2.166,2.207,-46.1847,2.166
+Spline,15%,normal,stable,short,5,0.479,0.594,-7.2612,0.266
+Spline,15%,extreme_high_temp,stable,short,3,0.729,0.758,-5.016,0.729
+Spline,15%,normal,stable,short,2,1.734,1.734,-612.6115,-1.734
+Spline,15%,normal,stable,short,1,2.927,2.927,,2.927
+Spline,15%,normal,rising,short,3,0.592,0.673,0.0994,0.592
+Spline,15%,normal,rising,long,29,3.549,4.11,0.1499,2.5
+Spline,15%,normal,falling,short,3,1.546,1.564,-3.82,-1.546
+Spline,15%,high_temp,crossing,medium,11,1.231,1.367,0.679,1.231
+Spline,15%,low_temp,crossing,medium,17,1.018,1.071,-3.345,-0.844
+Spline,15%,extreme_high_temp,crossing,medium,9,0.704,0.934,0.8213,-0.593
+Spline,15%,normal,stable,long,44,3.306,3.991,-0.0643,-0.733
+Spline,15%,normal,rising,short,5,0.71,0.714,0.4852,-0.71
+Spline,15%,normal,stable,short,5,1.909,1.918,-110.8292,-1.909
+Spline,15%,stagnant_wind,crossing,short,5,1.024,1.358,0.4863,0.785
+Spline,15%,normal,falling,medium,13,1.176,1.458,-0.3003,-0.779
+Spline,15%,normal,rising,short,3,0.371,0.444,0.6953,-0.371
+Spline,15%,normal,crossing,short,5,2.268,2.333,-6.1039,-2.268
+Spline,15%,extreme_high_temp,crossing,short,5,1.982,2.1,0.1279,-0.508
+Spline,15%,low_temp,stable,short,3,2.697,2.701,-141.9519,2.697
+Spline,15%,normal,stable,short,5,3.657,3.665,-152.7127,-3.657
+Spline,15%,extreme_high_temp,crossing,long,31,7.195,8.186,-2.5936,-7.165
+Spline,15%,normal,falling,medium,11,1.322,1.618,0.2056,-1.322
+Spline,15%,stagnant_wind,crossing,medium,10,1.588,1.851,-3.6757,-1.564
+Spline,15%,normal,falling,long,25,2.357,2.868,-1.9868,-2.357
+Spline,15%,normal,stable,long,29,3.032,3.23,-10.0487,2.699
+Spline,15%,normal,crossing,medium,21,3.632,4.151,-1.4665,3.632
+Spline,15%,extreme_high_temp,rising,medium,9,3.039,3.044,-15.548,-3.039
+Spline,15%,normal,stable,long,49,3.136,3.605,-1.8105,1.47
+Spline,15%,normal,stable,medium,15,5.217,5.635,-3.03,-4.97
+Spline,15%,normal,crossing,short,4,1.004,1.221,0.8291,0.094
+Spline,15%,high_temp,crossing,short,3,0.562,0.661,0.4553,-0.514
+Spline,15%,normal,stable,short,1,0.139,0.139,,0.139
+Spline,15%,low_temp,stable,medium,21,2.654,2.66,-163.5219,2.654
+Spline,15%,low_temp,crossing,medium,11,2.139,2.414,-0.2808,2.139
+Spline,15%,normal,stable,short,1,0.151,0.151,,0.151
+Spline,15%,normal,crossing,medium,11,1.401,1.569,0.674,-1.19
+Spline,15%,normal,stable,long,49,3.454,3.872,-2.5225,-1.088
+Spline,15%,normal,stable,medium,21,1.012,1.123,-1.4131,0.871
+Spline,15%,normal,crossing,medium,13,0.841,0.934,0.8524,0.815
+Spline,15%,normal,rising,medium,12,2.627,2.709,0.6304,0.059
+Spline,15%,normal,falling,short,1,0.419,0.419,,-0.419
+Spline,15%,normal,stable,short,5,0.356,0.432,0.7701,0.346
+Spline,15%,extreme_high_temp,falling,short,5,0.453,0.528,0.7231,-0.121
+Spline,15%,stagnant_wind,crossing,medium,13,2.638,2.854,-3.523,2.638
+Spline,15%,stagnant_wind,stable,short,1,2.392,2.392,,-2.392
+Spline,15%,low_temp,crossing,medium,19,2.913,3.135,-7.1106,2.913
+Diagonal Climatology,15%,extreme_high_temp,crossing,medium,19,1.894,2.114,0.6673,-0.087
+Diagonal Climatology,15%,stagnant_wind,rising,short,3,0.617,0.789,-0.2067,-0.6
+Diagonal Climatology,15%,normal,crossing,medium,19,2.204,2.221,0.4095,2.204
+Diagonal Climatology,15%,normal,rising,long,39,0.566,0.638,0.9488,-0.097
+Diagonal Climatology,15%,normal,falling,medium,17,2.829,2.867,-2.4607,-2.829
+Diagonal Climatology,15%,high_temp,crossing,medium,15,1.523,1.646,-0.3631,-1.523
+Diagonal Climatology,15%,extreme_high_temp,stable,short,3,1.506,1.514,-47.6808,1.506
+Diagonal Climatology,15%,stagnant_wind,stable,short,3,0.419,0.42,-54.0659,-0.419
+Diagonal Climatology,15%,low_temp,stable,medium,9,0.515,0.636,0.0715,0.515
+Diagonal Climatology,15%,normal,crossing,medium,19,2.676,2.72,0.1888,2.676
+Diagonal Climatology,15%,extreme_high_temp,rising,medium,19,2.462,2.517,-1.545,-2.462
+Diagonal Climatology,15%,stagnant_wind,crossing,short,3,0.069,0.072,-2.3553,-0.041
+Diagonal Climatology,15%,normal,crossing,long,47,1.372,1.557,0.8042,1.302
+Diagonal Climatology,15%,stagnant_wind,stable,long,25,2.653,3.151,-1.8012,2.509
+Diagonal Climatology,15%,low_temp,crossing,medium,15,1.224,1.287,0.318,1.224
+Diagonal Climatology,15%,low_temp,crossing,short,3,1.252,1.27,-1.1553,1.252
+Diagonal Climatology,15%,normal,stable,short,3,0.221,0.271,-1.3543,0.216
+Diagonal Climatology,15%,low_temp,crossing,long,35,3.712,3.746,-0.1155,3.712
+Diagonal Climatology,15%,low_temp,crossing,short,3,0.498,0.595,0.8087,0.498
+Diagonal Climatology,15%,stagnant_wind,stable,short,5,0.215,0.302,-3.936,0.18
+Diagonal Climatology,15%,normal,falling,medium,11,0.264,0.302,0.9789,0.213
+Diagonal Climatology,15%,low_temp,crossing,short,5,3.347,3.351,-4.0306,3.347
+Diagonal Climatology,15%,low_temp,crossing,medium,7,0.317,0.389,0.9648,-0.189
+Diagonal Climatology,15%,normal,stable,short,5,1.376,1.527,-58.6681,1.376
+Diagonal Climatology,15%,stagnant_wind,stable,medium,7,0.787,0.857,-10.2684,-0.787
+Diagonal Climatology,15%,normal,crossing,medium,23,2.214,2.244,0.414,-2.214
+Diagonal Climatology,15%,normal,stable,long,45,1.395,1.686,-1.4578,-0.108
+Diagonal Climatology,15%,normal,crossing,medium,17,1.434,1.504,0.7135,0.075
+Diagonal Climatology,15%,stagnant_wind,stable,short,1,1.293,1.293,,-1.293
+Diagonal Climatology,15%,normal,stable,long,27,0.841,1.052,0.8135,-0.831
+Diagonal Climatology,15%,normal,stable,short,5,2.176,2.207,-149.7011,-2.176
+Diagonal Climatology,15%,normal,crossing,long,39,2.409,2.582,0.4693,2.409
+Diagonal Climatology,15%,normal,stable,medium,7,0.84,0.997,-18.1666,-0.84
+Diagonal Climatology,15%,normal,stable,long,42,0.728,0.906,0.8653,-0.554
+Diagonal Climatology,15%,normal,crossing,medium,21,0.934,1.1,0.5368,0.934
+Diagonal Climatology,15%,stagnant_wind,crossing,medium,7,0.736,0.846,-1.9929,-0.705
+Diagonal Climatology,15%,normal,rising,medium,13,3.737,4.019,0.0121,3.737
+Diagonal Climatology,15%,stagnant_wind,stable,short,2,0.471,0.471,-2.4936,-0.007
+Diagonal Climatology,15%,normal,crossing,long,37,0.918,1.049,0.8664,0.884
+Diagonal Climatology,15%,normal,crossing,medium,18,0.921,1.147,0.5475,-0.415
+Diagonal Climatology,15%,normal,falling,long,43,1.262,1.848,0.3299,1.035
+Diagonal Climatology,15%,normal,crossing,long,37,1.085,1.345,0.7675,0.672
+Diagonal Climatology,15%,normal,stable,long,41,1.629,1.902,0.1401,1.619
+Diagonal Climatology,15%,high_temp,crossing,medium,23,2.511,2.609,0.6559,-2.511
+Diagonal Climatology,15%,low_temp,stable,short,3,2.927,2.942,-1600.357,2.927
+Diagonal Climatology,15%,normal,stable,long,37,0.938,1.067,0.3563,-0.93
+Diagonal Climatology,15%,low_temp,stable,short,1,0.977,0.977,,0.977
+Diagonal Climatology,15%,high_temp,stable,long,28,3.124,3.427,-0.3723,-3.124
+Diagonal Climatology,15%,normal,rising,medium,7,0.593,0.668,0.6091,0.593
+Diagonal Climatology,15%,normal,stable,medium,7,2.625,3.112,-12.9693,2.625
+Diagonal Climatology,15%,high_temp,crossing,short,3,4.016,4.202,-5.4267,4.016
+Diagonal Climatology,15%,normal,crossing,medium,9,0.661,0.75,0.9193,-0.558
+Diagonal Climatology,15%,normal,stable,medium,17,0.586,0.636,0.6965,-0.526
+Diagonal Climatology,15%,stagnant_wind,stable,medium,9,2.242,2.421,-5.5573,-2.242
+Diagonal Climatology,15%,normal,stable,long,33,0.83,1.072,0.8224,-0.148
+Diagonal Climatology,15%,normal,stable,medium,7,0.475,0.622,-0.5849,-0.458
+Diagonal Climatology,15%,low_temp,crossing,medium,21,1.242,1.491,-0.2039,1.233
+Diagonal Climatology,15%,normal,rising,short,3,2.055,2.056,-10.0214,2.055
+Diagonal Climatology,15%,normal,rising,long,25,0.437,0.521,0.8248,0.318
+Diagonal Climatology,15%,high_temp,crossing,medium,19,5.565,5.625,-3.1707,-5.565
+Diagonal Climatology,15%,normal,falling,short,3,10.557,10.584,-260.6693,10.557
+Diagonal Climatology,15%,normal,crossing,medium,17,1.475,1.535,0.8255,1.475
+Diagonal Climatology,15%,low_temp,rising,medium,17,2.688,2.88,-1.5431,2.688
+Diagonal Climatology,15%,normal,stable,short,3,1.041,1.044,-77.0734,-1.041
+Diagonal Climatology,15%,normal,crossing,medium,23,2.789,2.873,0.2949,-2.789
+Diagonal Climatology,15%,extreme_high_temp,stable,short,5,2.592,2.615,-32.2076,-2.592
+Diagonal Climatology,15%,normal,falling,short,5,0.271,0.328,0.8974,-0.229
+Diagonal Climatology,15%,normal,rising,short,5,0.456,0.533,0.7236,0.021
+Diagonal Climatology,15%,normal,crossing,short,5,0.16,0.193,-0.0081,-0.103
+Diagonal Climatology,15%,normal,stable,short,3,1.373,1.513,-10.2763,-1.373
+Diagonal Climatology,15%,normal,crossing,long,25,0.637,0.717,0.9533,0.529
+Diagonal Climatology,15%,stagnant_wind,stable,short,5,3.18,3.215,-43.7824,-3.18
+Diagonal Climatology,15%,normal,rising,short,3,1.895,1.9,-5.6398,1.895
+Diagonal Climatology,15%,extreme_high_temp,stable,short,5,1.417,1.47,-201.4105,-1.417
+Diagonal Climatology,15%,normal,rising,short,3,5.859,6.024,-22.6949,5.859
+Diagonal Climatology,15%,normal,crossing,long,39,2.201,2.419,0.5515,2.201
+Diagonal Climatology,15%,normal,crossing,medium,19,0.469,0.577,0.9029,0.323
+Diagonal Climatology,15%,extreme_high_temp,crossing,short,5,0.8,0.852,0.4904,-0.8
+Diagonal Climatology,15%,normal,falling,medium,12,1.452,1.474,-0.7743,-1.452
+Diagonal Climatology,15%,normal,crossing,long,25,4.11,4.229,-2.1396,-4.11
+Diagonal Climatology,15%,normal,stable,long,37,3.179,3.923,-0.5692,3.179
+Diagonal Climatology,15%,normal,rising,long,47,4.208,4.636,-0.5679,-4.208
+Diagonal Climatology,15%,normal,crossing,medium,17,1.671,1.75,0.6958,1.671
+Diagonal Climatology,15%,normal,crossing,medium,11,2.121,2.364,0.2704,1.618
+Diagonal Climatology,15%,normal,falling,short,1,2.45,2.45,,2.45
+Diagonal Climatology,15%,high_temp,crossing,short,5,0.325,0.37,0.8571,-0.325
+Diagonal Climatology,15%,high_temp,stable,short,5,0.448,0.597,-11.4206,-0.448
+Diagonal Climatology,15%,extreme_high_temp,crossing,medium,17,0.94,1.079,0.155,0.94
+Diagonal Climatology,15%,normal,falling,medium,9,0.555,0.816,0.4844,0.202
+Diagonal Climatology,15%,normal,stable,short,3,1.092,1.109,-22.5717,1.092
+Diagonal Climatology,15%,extreme_high_temp,crossing,short,5,2.617,2.651,-2.6778,-2.617
+Diagonal Climatology,15%,normal,crossing,long,29,2.584,2.723,0.3931,2.584
+Diagonal Climatology,15%,normal,crossing,medium,17,2.372,2.391,0.2304,2.372
+Diagonal Climatology,15%,normal,stable,short,3,2.161,2.162,-44.2532,-2.161
+Diagonal Climatology,15%,normal,stable,short,5,0.373,0.428,-3.2942,-0.373
+Diagonal Climatology,15%,extreme_high_temp,stable,short,3,0.334,0.452,-1.1366,0.171
+Diagonal Climatology,15%,normal,stable,short,2,3.664,3.665,-2739.5933,3.664
+Diagonal Climatology,15%,normal,stable,short,1,2.437,2.437,,-2.437
+Diagonal Climatology,15%,normal,rising,short,3,0.879,0.929,-0.716,0.879
+Diagonal Climatology,15%,normal,rising,long,29,2.127,2.229,0.7499,2.127
+Diagonal Climatology,15%,normal,falling,short,3,2.629,2.656,-12.9079,-2.629
+Diagonal Climatology,15%,high_temp,crossing,medium,11,2.588,2.649,-0.206,-2.588
+Diagonal Climatology,15%,low_temp,crossing,medium,17,1.099,1.348,-5.8735,0.9
+Diagonal Climatology,15%,extreme_high_temp,crossing,medium,9,3.652,3.684,-1.7829,-3.652
+Diagonal Climatology,15%,normal,stable,long,44,2.432,2.669,0.5242,2.432
+Diagonal Climatology,15%,normal,rising,short,5,1.036,1.058,-0.1296,1.036
+Diagonal Climatology,15%,normal,stable,short,5,2.039,2.043,-125.9168,2.039
+Diagonal Climatology,15%,stagnant_wind,crossing,short,5,0.835,1.126,0.6465,0.757
+Diagonal Climatology,15%,normal,falling,medium,13,0.714,0.859,0.5493,0.694
+Diagonal Climatology,15%,normal,rising,short,3,0.93,0.945,-0.3824,-0.93
+Diagonal Climatology,15%,normal,crossing,short,5,1.78,1.79,-3.1831,1.78
+Diagonal Climatology,15%,extreme_high_temp,crossing,short,5,1.74,2.221,0.0245,1.467
+Diagonal Climatology,15%,low_temp,stable,short,3,2.057,2.069,-82.8736,2.057
+Diagonal Climatology,15%,normal,stable,short,5,0.245,0.266,0.1889,0.173
+Diagonal Climatology,15%,extreme_high_temp,crossing,long,31,1.747,1.987,0.7883,-1.68
+Diagonal Climatology,15%,normal,falling,medium,11,2.141,2.306,-0.6124,-2.141
+Diagonal Climatology,15%,stagnant_wind,crossing,medium,10,0.876,1.11,-0.6829,0.401
+Diagonal Climatology,15%,normal,falling,long,25,0.479,0.558,0.8871,0.181
+Diagonal Climatology,15%,normal,stable,long,29,1.472,1.77,-2.3171,-1.067
+Diagonal Climatology,15%,normal,crossing,medium,21,1.446,1.54,0.6605,-1.446
+Diagonal Climatology,15%,extreme_high_temp,rising,medium,9,3.764,3.771,-24.3968,-3.764
+Diagonal Climatology,15%,normal,stable,long,49,1.418,1.585,0.4563,-1.411
+Diagonal Climatology,15%,normal,stable,medium,15,4.483,4.644,-1.7374,-3.967
+Diagonal Climatology,15%,normal,crossing,short,4,0.419,0.698,0.944,0.32
+Diagonal Climatology,15%,high_temp,crossing,short,3,1.551,1.568,-2.0635,1.551
+Diagonal Climatology,15%,normal,stable,short,1,1.338,1.338,,1.338
+Diagonal Climatology,15%,low_temp,stable,medium,21,2.56,2.834,-185.7466,2.56
+Diagonal Climatology,15%,low_temp,crossing,medium,11,0.872,0.938,0.8066,0.489
+Diagonal Climatology,15%,normal,stable,short,1,0.323,0.323,,0.323
+Diagonal Climatology,15%,normal,crossing,medium,11,2.64,2.66,0.0631,2.64
+Diagonal Climatology,15%,normal,stable,long,49,0.52,0.67,0.8946,-0.281
+Diagonal Climatology,15%,normal,stable,medium,21,3.051,3.598,-23.7876,3.051
+Diagonal Climatology,15%,normal,crossing,medium,13,1.183,1.344,0.6943,1.179
+Diagonal Climatology,15%,normal,rising,medium,12,2.235,2.404,0.7089,2.235
+Diagonal Climatology,15%,normal,falling,short,1,1.895,1.895,,1.895
+Diagonal Climatology,15%,normal,stable,short,5,3.044,3.07,-10.6293,3.044
+Diagonal Climatology,15%,extreme_high_temp,falling,short,5,1.135,1.161,-0.3393,-1.135
+Diagonal Climatology,15%,stagnant_wind,crossing,medium,13,0.377,0.43,0.8976,0.134
+Diagonal Climatology,15%,stagnant_wind,stable,short,1,0.054,0.054,,-0.054
+Diagonal Climatology,15%,low_temp,crossing,medium,19,0.877,0.98,0.2073,0.877
+LOCF,15%,extreme_high_temp,crossing,medium,19,4.223,5.124,-0.9548,3.581
+LOCF,15%,stagnant_wind,rising,short,3,1.136,1.344,-2.4975,-1.136
+LOCF,15%,normal,crossing,medium,19,2.8,3.688,-0.6285,2.291
+LOCF,15%,normal,rising,long,39,2.698,3.468,-0.5123,-2.018
+LOCF,15%,normal,falling,medium,17,2.987,3.361,-3.7576,2.987
+LOCF,15%,high_temp,crossing,medium,15,4.078,4.315,-8.363,4.078
+LOCF,15%,extreme_high_temp,stable,short,3,0.279,0.322,-1.205,-0.238
+LOCF,15%,stagnant_wind,stable,short,3,0.05,0.062,-0.2166,0.026
+LOCF,15%,low_temp,stable,medium,9,1.458,1.601,-4.8774,1.458
+LOCF,15%,normal,crossing,medium,19,2.432,3.037,-0.0112,-0.32
+LOCF,15%,extreme_high_temp,rising,medium,19,9.74,9.867,-38.1228,-9.74
+LOCF,15%,stagnant_wind,crossing,short,3,0.054,0.067,-1.9192,0.054
+LOCF,15%,normal,crossing,long,47,3.569,4.116,-0.3679,2.134
+LOCF,15%,stagnant_wind,stable,long,25,1.732,2.015,-0.1457,0.719
+LOCF,15%,low_temp,crossing,medium,15,1.116,1.638,-0.1047,-0.504
+LOCF,15%,low_temp,crossing,short,3,1.703,1.91,-3.8729,-1.703
+LOCF,15%,normal,stable,short,3,0.863,0.881,-23.8088,-0.863
+LOCF,15%,low_temp,crossing,long,35,3.331,3.687,-0.0804,1.006
+LOCF,15%,low_temp,crossing,short,3,2.635,2.965,-3.759,-2.635
+LOCF,15%,stagnant_wind,stable,short,5,0.131,0.143,-0.1034,-0.044
+LOCF,15%,normal,falling,medium,11,2.121,2.97,-1.0406,2.121
+LOCF,15%,low_temp,crossing,short,5,1.519,1.979,-0.754,-1.297
+LOCF,15%,low_temp,crossing,medium,7,2.983,3.634,-2.0682,-2.983
+LOCF,15%,normal,stable,short,5,0.611,0.643,-9.5675,-0.611
+LOCF,15%,stagnant_wind,stable,medium,7,0.443,0.504,-2.8996,-0.435
+LOCF,15%,normal,crossing,medium,23,2.56,2.934,-0.0021,0.133
+LOCF,15%,normal,stable,long,45,4.228,4.363,-15.4541,4.228
+LOCF,15%,normal,crossing,medium,17,2.837,3.328,-0.4031,1.783
+LOCF,15%,stagnant_wind,stable,short,1,2.617,2.617,,2.617
+LOCF,15%,normal,stable,long,27,5.137,5.685,-4.4431,5.137
+LOCF,15%,normal,stable,short,5,0.304,0.333,-2.4343,-0.28
+LOCF,15%,normal,crossing,long,39,6.374,7.293,-3.2354,-6.374
+LOCF,15%,normal,stable,medium,7,0.461,0.514,-4.0964,-0.461
+LOCF,15%,normal,stable,long,42,3.08,3.849,-1.4331,2.954
+LOCF,15%,normal,crossing,medium,21,1.873,2.155,-0.7765,1.425
+LOCF,15%,stagnant_wind,crossing,medium,7,1.121,1.223,-5.2618,-1.121
+LOCF,15%,normal,rising,medium,13,5.151,6.497,-1.5809,-5.085
+LOCF,15%,stagnant_wind,stable,short,2,0.379,0.455,-2.2629,-0.379
+LOCF,15%,normal,crossing,long,37,2.604,3.287,-0.3127,-1.604
+LOCF,15%,normal,crossing,medium,18,1.522,1.741,-0.0421,0.35
+LOCF,15%,normal,falling,long,43,2.724,2.885,-0.6325,1.796
+LOCF,15%,normal,crossing,long,37,5.195,5.722,-3.2081,4.996
+LOCF,15%,normal,stable,long,41,1.876,2.633,-0.6475,-1.651
+LOCF,15%,high_temp,crossing,medium,23,7.703,8.811,-2.9232,-7.605
+LOCF,15%,low_temp,stable,short,3,0.076,0.077,-0.0833,0.021
+LOCF,15%,normal,stable,long,37,1.508,1.935,-1.1149,1.405
+LOCF,15%,low_temp,stable,short,1,0.018,0.018,,-0.018
+LOCF,15%,high_temp,stable,long,28,4.906,5.61,-2.6765,-4.786
+LOCF,15%,normal,rising,medium,7,2.711,2.914,-6.4383,-2.711
+LOCF,15%,normal,stable,medium,7,1.882,2.058,-5.1072,-1.882
+LOCF,15%,high_temp,crossing,short,3,6.397,6.608,-14.8952,-6.397
+LOCF,15%,normal,crossing,medium,9,4.015,4.805,-2.3142,-4.015
+LOCF,15%,normal,stable,medium,17,2.476,2.727,-4.5853,-2.47
+LOCF,15%,stagnant_wind,stable,medium,9,0.74,0.985,-0.0849,-0.276
+LOCF,15%,normal,stable,long,33,5.105,5.694,-4.0115,5.095
+LOCF,15%,normal,stable,medium,7,0.37,0.533,-0.1623,0.199
+LOCF,15%,low_temp,crossing,medium,21,1.132,1.437,-0.1189,0.468
+LOCF,15%,normal,rising,short,3,1.867,1.967,-9.092,-1.867
+LOCF,15%,normal,rising,long,25,1.291,1.402,-0.2675,0.644
+LOCF,15%,high_temp,crossing,medium,19,5.124,5.817,-3.4601,-5.124
+LOCF,15%,normal,falling,short,3,2.702,2.78,-17.0544,2.702
+LOCF,15%,normal,crossing,medium,17,3.218,4.066,-0.2249,-1.742
+LOCF,15%,low_temp,rising,medium,17,1.789,2.032,-0.2658,0.931
+LOCF,15%,normal,stable,short,3,0.589,0.6,-24.8225,0.589
+LOCF,15%,normal,crossing,medium,23,7.087,7.869,-4.2914,7.087
+LOCF,15%,extreme_high_temp,stable,short,5,0.374,0.454,-0.0015,-0.018
+LOCF,15%,normal,falling,short,5,1.215,1.589,-1.4086,1.215
+LOCF,15%,normal,rising,short,5,3.109,3.27,-9.4051,-3.109
+LOCF,15%,normal,crossing,short,5,0.605,0.634,-9.8944,0.605
+LOCF,15%,normal,stable,short,3,0.328,0.537,-0.4196,-0.292
+LOCF,15%,normal,crossing,long,25,4.485,5.548,-1.7973,4.447
+LOCF,15%,stagnant_wind,stable,short,5,0.401,0.487,-0.0263,-0.078
+LOCF,15%,normal,rising,short,3,1.75,1.899,-5.6355,-1.75
+LOCF,15%,extreme_high_temp,stable,short,5,0.093,0.108,-0.0936,0.032
+LOCF,15%,normal,rising,short,3,1.249,1.547,-0.5616,0.927
+LOCF,15%,normal,crossing,long,39,3.717,4.373,-0.4655,-2.464
+LOCF,15%,normal,crossing,medium,19,2.567,3.163,-1.914,-2.564
+LOCF,15%,extreme_high_temp,crossing,short,5,2.147,2.457,-3.2402,-2.147
+LOCF,15%,normal,falling,medium,12,0.994,1.325,-0.4352,0.73
+LOCF,15%,normal,crossing,long,25,1.723,2.826,-0.4013,-1.512
+LOCF,15%,normal,stable,long,37,4.35,5.36,-1.9297,-4.35
+LOCF,15%,normal,rising,long,47,3.697,4.238,-0.3098,-2.061
+LOCF,15%,normal,crossing,medium,17,4.302,5.266,-1.7537,4.203
+LOCF,15%,normal,crossing,medium,11,4.386,4.902,-2.1379,4.046
+LOCF,15%,normal,falling,short,1,1.127,1.127,,1.127
+LOCF,15%,high_temp,crossing,short,5,1.631,1.902,-2.7856,1.631
+LOCF,15%,high_temp,stable,short,5,0.619,0.642,-13.3347,-0.619
+LOCF,15%,extreme_high_temp,crossing,medium,17,2.09,2.369,-3.0741,-2.058
+LOCF,15%,normal,falling,medium,9,1.036,1.169,-0.0574,-0.272
+LOCF,15%,normal,stable,short,3,0.653,0.692,-8.1866,-0.653
+LOCF,15%,extreme_high_temp,crossing,short,5,2.888,3.202,-4.3656,-2.888
+LOCF,15%,normal,crossing,long,29,3.66,3.995,-0.3061,-1.934
+LOCF,15%,normal,crossing,medium,17,5.097,5.78,-3.496,-5.097
+LOCF,15%,normal,stable,short,3,0.747,0.814,-5.4106,0.747
+LOCF,15%,normal,stable,short,5,0.636,0.669,-9.4682,0.636
+LOCF,15%,extreme_high_temp,stable,short,3,0.26,0.384,-0.5457,0.228
+LOCF,15%,normal,stable,short,2,5.458,5.458,-6079.5437,-5.458
+LOCF,15%,normal,stable,short,1,0.118,0.118,,0.118
+LOCF,15%,normal,rising,short,3,1.472,1.634,-4.3103,-1.472
+LOCF,15%,normal,rising,long,29,4.092,4.459,-0.0006,-0.109
+LOCF,15%,normal,falling,short,3,1.179,1.377,-2.7392,1.179
+LOCF,15%,high_temp,crossing,medium,11,4.02,4.688,-2.7776,4.02
+LOCF,15%,low_temp,crossing,medium,17,1.065,1.183,-4.2923,-1.065
+LOCF,15%,extreme_high_temp,crossing,medium,9,3.791,4.387,-2.9461,-3.791
+LOCF,15%,normal,stable,long,44,4.432,5.661,-1.1412,-4.133
+LOCF,15%,normal,rising,short,5,2.294,2.501,-5.3108,-2.294
+LOCF,15%,normal,stable,short,5,0.308,0.357,-2.8813,-0.308
+LOCF,15%,stagnant_wind,crossing,short,5,2.832,3.407,-2.2356,-2.832
+LOCF,15%,normal,falling,medium,13,2.022,2.393,-2.5005,2.022
+LOCF,15%,normal,rising,short,3,2.93,3.038,-13.2822,-2.93
+LOCF,15%,normal,crossing,short,5,4.994,5.07,-32.5584,-4.994
+LOCF,15%,extreme_high_temp,crossing,short,5,2.488,3.354,-1.2236,2.488
+LOCF,15%,low_temp,stable,short,3,0.21,0.296,-0.7171,-0.191
+LOCF,15%,normal,stable,short,5,4.869,4.878,-271.276,-4.869
+LOCF,15%,extreme_high_temp,crossing,long,31,7.866,8.932,-3.278,-7.819
+LOCF,15%,normal,falling,medium,11,2.577,3.153,-2.0145,2.577
+LOCF,15%,stagnant_wind,crossing,medium,10,5.572,5.638,-42.3891,5.572
+LOCF,15%,normal,falling,long,25,1.554,1.702,-0.0522,0.379
+LOCF,15%,normal,stable,long,29,3.25,3.392,-11.1837,3.25
+LOCF,15%,normal,crossing,medium,21,2.224,2.647,-0.003,0.144
+LOCF,15%,extreme_high_temp,rising,medium,9,8.466,8.499,-128.0276,-8.466
+LOCF,15%,normal,stable,long,49,1.937,2.354,-0.1987,0.959
+LOCF,15%,normal,stable,medium,15,4.677,5.277,-2.5342,-4.468
+LOCF,15%,normal,crossing,short,4,4.951,5.68,-2.7012,-4.853
+LOCF,15%,high_temp,crossing,short,3,2.721,2.864,-9.2254,-2.721
+LOCF,15%,normal,stable,short,1,0.078,0.078,,0.078
+LOCF,15%,low_temp,stable,medium,21,0.229,0.284,-0.8748,0.194
+LOCF,15%,low_temp,crossing,medium,11,2.02,2.734,-0.6424,-1.71
+LOCF,15%,normal,stable,short,1,1.139,1.139,,-1.139
+LOCF,15%,normal,crossing,medium,11,5.515,6.161,-4.0278,-5.515
+LOCF,15%,normal,stable,long,49,1.943,2.485,-0.4511,-1.386
+LOCF,15%,normal,stable,medium,21,0.588,0.736,-0.0381,0.141
+LOCF,15%,normal,crossing,medium,13,4.477,5.094,-3.3918,4.477
+LOCF,15%,normal,rising,medium,12,3.99,4.922,-0.2199,-2.089
+LOCF,15%,normal,falling,short,1,1.783,1.783,,1.783
+LOCF,15%,normal,stable,short,5,0.939,1.071,-0.4151,-0.58
+LOCF,15%,extreme_high_temp,falling,short,5,1.19,1.412,-0.9821,0.994
+LOCF,15%,stagnant_wind,crossing,medium,13,1.096,1.723,-0.648,-1.08
+LOCF,15%,stagnant_wind,stable,short,1,0.762,0.762,,-0.762
+LOCF,15%,low_temp,crossing,medium,19,1.442,1.537,-0.9506,1.073
+Linear,20%,extreme_high_temp,crossing,medium,19,1.318,1.672,0.792,-0.71
+Linear,20%,stagnant_wind,rising,short,3,0.198,0.24,0.8885,0.126
+Linear,20%,normal,crossing,medium,19,1.302,1.667,0.6674,-1.08
+Linear,20%,normal,rising,long,39,1.978,2.306,0.3314,-0.644
+Linear,20%,normal,falling,medium,17,0.383,0.486,0.9005,0.058
+Linear,20%,high_temp,crossing,medium,15,1.086,1.196,0.2807,1.086
+Linear,20%,extreme_high_temp,stable,short,3,0.526,0.548,-5.3753,-0.526
+Linear,20%,stagnant_wind,stable,short,3,0.425,0.452,-62.9161,-0.425
+Linear,20%,low_temp,stable,medium,9,0.672,0.795,-0.4518,0.672
+Linear,20%,normal,crossing,medium,19,3.293,3.917,-0.682,3.293
+Linear,20%,extreme_high_temp,rising,medium,19,8.981,9.087,-32.1831,-8.981
+Linear,20%,stagnant_wind,crossing,short,3,0.04,0.05,-0.6391,-0.034
+Linear,20%,normal,crossing,long,47,3.694,4.077,-0.3422,1.351
+Linear,20%,stagnant_wind,stable,long,25,1.22,1.856,0.0279,-0.244
+Linear,20%,low_temp,crossing,medium,15,1.763,2.062,-0.7513,1.763
+Linear,20%,low_temp,crossing,short,3,0.137,0.159,0.9663,0.04
+Linear,20%,normal,stable,short,3,0.893,0.912,-25.5651,-0.893
+Linear,20%,low_temp,crossing,long,35,3.65,4.455,-0.5774,3.486
+Linear,20%,low_temp,crossing,short,3,0.42,0.427,0.9012,-0.192
+Linear,20%,stagnant_wind,stable,short,5,0.168,0.185,-0.8526,-0.155
+Linear,20%,normal,falling,medium,11,1.029,1.235,0.6469,-1.029
+Linear,20%,low_temp,crossing,short,5,4.273,4.533,-8.2073,4.273
+Linear,20%,low_temp,crossing,medium,7,0.499,0.57,0.9245,0.308
+Linear,20%,normal,stable,short,5,0.311,0.361,-2.3265,-0.025
+Linear,20%,stagnant_wind,stable,medium,7,0.239,0.309,-0.4677,0.043
+Linear,20%,normal,crossing,medium,23,3.398,3.917,-0.7853,3.398
+Linear,20%,normal,stable,long,45,1.247,1.526,-1.0127,1.086
+Linear,20%,normal,crossing,medium,17,1.765,1.993,0.4965,0.093
+Linear,20%,stagnant_wind,stable,short,1,2.301,2.301,,2.301
+Linear,20%,normal,stable,long,27,4.979,5.521,-4.1323,4.979
+Linear,20%,normal,stable,short,5,0.628,0.652,-12.1379,-0.628
+Linear,20%,normal,crossing,long,39,5.394,6.563,-2.4297,-5.365
+Linear,20%,normal,stable,medium,7,0.485,0.503,-3.8855,-0.485
+Linear,20%,normal,stable,long,42,2.917,3.457,-0.9626,2.176
+Linear,20%,normal,crossing,medium,21,3.375,3.838,-4.6356,3.375
+Linear,20%,stagnant_wind,crossing,medium,7,0.263,0.323,0.5626,0.192
+Linear,20%,normal,rising,medium,13,1.134,1.326,0.8925,0.406
+Linear,20%,stagnant_wind,stable,short,2,0.259,0.335,-0.7686,-0.259
+Linear,20%,normal,crossing,long,37,1.836,2.072,0.4785,0.331
+Linear,20%,normal,crossing,medium,18,1.485,1.797,-0.1106,0.055
+Linear,20%,normal,falling,long,43,1.671,1.932,0.2678,0.612
+Linear,20%,normal,crossing,long,37,2.293,2.549,0.1652,1.844
+Linear,20%,normal,stable,long,41,1.941,2.701,-0.7337,-1.776
+Linear,20%,high_temp,crossing,medium,23,2.875,3.125,0.5064,-1.656
+Linear,20%,low_temp,stable,short,3,4.542,4.549,-3826.343,4.542
+Linear,20%,normal,stable,long,37,2.006,2.471,-2.4512,2.002
+Linear,20%,low_temp,stable,short,1,0.053,0.053,,-0.053
+Linear,20%,high_temp,stable,long,28,3.74,4.502,-1.3684,-3.602
+Linear,20%,normal,rising,medium,7,1.234,1.295,-0.469,-1.234
+Linear,20%,normal,stable,medium,7,0.967,1.162,-0.9469,-0.967
+Linear,20%,high_temp,crossing,short,3,5.366,5.624,-10.5152,-5.366
+Linear,20%,normal,crossing,medium,9,0.497,0.591,0.9499,0.324
+Linear,20%,normal,stable,medium,17,2.761,2.982,-5.6797,-2.761
+Linear,20%,stagnant_wind,stable,medium,9,1.135,1.482,-1.4574,0.777
+Linear,20%,normal,stable,long,33,5.391,5.982,-4.5303,5.391
+Linear,20%,normal,stable,medium,7,0.591,0.655,-0.7558,-0.591
+Linear,20%,low_temp,crossing,medium,21,2.382,2.737,-3.0571,2.382
+Linear,20%,normal,rising,short,3,0.36,0.361,0.6602,-0.36
+Linear,20%,normal,rising,long,25,1.995,2.215,-2.1611,1.995
+Linear,20%,high_temp,crossing,medium,19,0.869,1.011,0.8652,-0.833
+Linear,20%,normal,falling,short,3,1.458,1.849,-6.9875,1.458
+Linear,20%,normal,crossing,medium,17,2.793,3.285,0.2005,2.793
+Linear,20%,low_temp,rising,medium,17,2.9,3.259,-2.2567,2.9
+Linear,20%,normal,stable,short,3,0.5,0.509,-17.5856,0.5
+Linear,20%,normal,crossing,medium,23,1.558,1.816,0.7181,1.537
+Linear,20%,extreme_high_temp,stable,short,5,0.523,0.667,-1.1624,-0.523
+Linear,20%,normal,falling,short,5,0.622,0.666,0.5762,-0.622
+Linear,20%,normal,rising,short,5,0.769,0.779,0.4096,-0.769
+Linear,20%,normal,crossing,short,5,0.244,0.289,-1.2614,0.217
+Linear,20%,normal,stable,short,3,0.339,0.563,-0.5627,-0.339
+Linear,20%,normal,crossing,long,25,0.679,0.878,0.93,-0.495
+Linear,20%,stagnant_wind,stable,short,5,0.579,0.665,-0.9164,0.579
+Linear,20%,normal,rising,short,3,1.777,1.928,-5.8411,-1.777
+Linear,20%,extreme_high_temp,stable,short,5,0.323,0.362,-11.2555,-0.304
+Linear,20%,normal,rising,short,3,2.776,3.01,-4.9157,2.776
+Linear,20%,normal,crossing,long,39,4.048,4.334,-0.4401,-1.292
+Linear,20%,normal,crossing,medium,19,0.42,0.464,0.9372,0.18
+Linear,20%,extreme_high_temp,crossing,short,5,0.294,0.334,0.9218,-0.15
+Linear,20%,normal,falling,medium,12,0.91,1.187,-0.1501,0.583
+Linear,20%,normal,crossing,long,25,1.927,2.316,0.0584,1.927
+Linear,20%,normal,stable,long,37,2.65,3.639,-0.3505,-2.003
+Linear,20%,normal,rising,long,47,2.976,3.375,0.1689,-0.953
+Linear,20%,normal,crossing,medium,17,0.607,0.892,0.921,-0.581
+Linear,20%,normal,crossing,medium,11,1.464,1.636,0.6505,0.076
+Linear,20%,normal,falling,short,1,0.029,0.029,,-0.029
+Linear,20%,high_temp,crossing,short,5,0.218,0.24,0.9396,-0.155
+Linear,20%,high_temp,stable,short,5,0.167,0.184,-0.1779,-0.15
+Linear,20%,extreme_high_temp,crossing,medium,17,2.446,2.697,-4.2788,-2.446
+Linear,20%,normal,falling,medium,9,2.202,2.399,-3.4526,-2.202
+Linear,20%,normal,stable,short,3,0.205,0.238,-0.0885,-0.205
+Linear,20%,extreme_high_temp,crossing,short,5,0.295,0.349,0.9362,-0.221
+Linear,20%,normal,crossing,long,29,2.645,3.277,0.1208,1.231
+Linear,20%,normal,crossing,medium,17,0.95,1.131,0.8278,-0.945
+Linear,20%,normal,stable,short,3,2.255,2.277,-49.2325,-2.255
+Linear,20%,normal,stable,short,5,0.134,0.148,0.4855,-0.001
+Linear,20%,extreme_high_temp,stable,short,3,0.325,0.379,-0.5027,-0.325
+Linear,20%,normal,stable,short,2,0.429,0.451,-40.497,-0.429
+Linear,20%,normal,stable,short,1,0.199,0.199,,0.199
+Linear,20%,normal,rising,short,3,0.109,0.136,0.9633,0.109
+Linear,20%,normal,rising,long,29,3.906,4.544,-0.0391,2.9
+Linear,20%,normal,falling,short,3,0.663,0.665,0.1269,-0.663
+Linear,20%,high_temp,crossing,medium,11,0.342,0.394,0.9733,0.074
+Linear,20%,low_temp,crossing,medium,17,0.241,0.313,0.6299,-0.117
+Linear,20%,extreme_high_temp,crossing,medium,9,0.394,0.438,0.9606,-0.135
+Linear,20%,normal,stable,long,44,3.658,5.063,-0.7126,-3.292
+Linear,20%,normal,rising,short,5,0.345,0.366,0.8651,-0.345
+Linear,20%,normal,stable,short,5,0.193,0.228,-0.576,-0.182
+Linear,20%,stagnant_wind,crossing,short,5,0.67,0.86,0.7939,0.33
+Linear,20%,normal,falling,medium,13,0.381,0.486,0.8554,0.024
+Linear,20%,normal,rising,short,3,0.806,0.809,-0.0125,-0.806
+Linear,20%,normal,crossing,short,5,0.471,0.537,0.6238,-0.471
+Linear,20%,extreme_high_temp,crossing,short,5,0.981,1.081,0.769,-0.485
+Linear,20%,low_temp,stable,short,3,0.515,0.552,-4.962,0.515
+Linear,20%,normal,stable,short,5,1.176,1.244,-16.7044,-1.176
+Linear,20%,extreme_high_temp,crossing,long,31,4.572,5.387,-0.5561,-4.377
+Linear,20%,normal,falling,medium,11,0.454,0.495,0.9257,-0.061
+Linear,20%,stagnant_wind,crossing,medium,10,1.428,1.877,-3.8081,1.345
+Linear,20%,normal,falling,long,25,1.083,1.438,0.2492,-0.866
+Linear,20%,normal,stable,long,29,2.711,2.902,-7.9184,2.711
+Linear,20%,normal,crossing,medium,21,2.804,3.491,-0.7442,2.791
+Linear,20%,extreme_high_temp,rising,medium,9,0.529,0.572,0.4157,-0.529
+Linear,20%,normal,stable,long,49,2.569,3.141,-1.1342,1.935
+Linear,20%,normal,stable,medium,15,5.093,5.815,-3.2912,-5.023
+Linear,20%,normal,crossing,short,4,0.405,0.542,0.9663,0.089
+Linear,20%,high_temp,crossing,short,3,0.548,0.596,0.558,-0.548
+Linear,20%,normal,stable,short,1,0.048,0.048,,0.048
+Linear,20%,low_temp,stable,medium,21,1.673,1.808,-75.0193,1.673
+Linear,20%,low_temp,crossing,medium,11,1.33,1.579,0.4522,1.33
+Linear,20%,normal,stable,short,1,0.165,0.165,,-0.165
+Linear,20%,normal,crossing,medium,11,0.715,0.833,0.908,-0.703
+Linear,20%,normal,stable,long,49,2.175,2.495,-0.4624,-0.56
+Linear,20%,normal,stable,medium,21,0.889,1.109,-1.3559,0.87
+Linear,20%,normal,crossing,medium,13,0.582,0.694,0.9184,0.493
+Linear,20%,normal,rising,medium,12,2.087,2.288,0.7364,0.452
+Linear,20%,normal,falling,short,1,0.129,0.129,,0.129
+Linear,20%,normal,stable,short,5,0.649,0.681,0.4276,0.649
+Linear,20%,extreme_high_temp,falling,short,5,0.411,0.544,0.7062,-0.411
+Linear,20%,stagnant_wind,crossing,medium,13,2.684,2.855,-3.5259,2.684
+Linear,20%,stagnant_wind,stable,short,1,0.04,0.04,,-0.04
+Linear,20%,low_temp,crossing,medium,21,3.103,3.409,-2.9181,3.103
+Linear,20%,stagnant_wind,stable,short,1,0.093,0.093,,0.093
+Linear,20%,low_temp,stable,short,3,0.206,0.213,-13.0669,0.206
+Linear,20%,normal,crossing,short,5,0.071,0.074,0.9963,-0.024
+Linear,20%,normal,stable,short,3,0.591,0.671,0.3877,-0.029
+Linear,20%,stagnant_wind,stable,short,4,1.759,1.836,-38.2141,1.759
+Linear,20%,stagnant_wind,rising,short,3,0.608,0.66,0.6016,0.608
+Linear,20%,normal,rising,medium,9,5.605,5.974,-4.3719,5.605
+Linear,20%,normal,rising,short,5,0.18,0.25,0.6168,-0.14
+Linear,20%,stagnant_wind,rising,medium,13,2.457,2.781,-5.4408,2.457
+Linear,20%,high_temp,rising,medium,23,2.976,3.689,-0.9899,2.958
+Linear,20%,stagnant_wind,stable,medium,7,0.097,0.125,0.742,-0.026
+Linear,20%,normal,crossing,medium,7,1.479,1.575,-1.0134,1.479
+Linear,20%,high_temp,stable,medium,7,0.432,0.517,-3.6419,-0.432
+Linear,20%,normal,stable,medium,19,0.62,0.72,-0.4266,0.438
+Linear,20%,normal,falling,short,3,0.137,0.158,0.9281,-0.028
+Linear,20%,normal,crossing,long,45,2.927,3.708,-1.4514,-2.873
+Linear,20%,normal,stable,short,5,0.237,0.294,0.6134,-0.014
+Linear,20%,normal,stable,medium,7,0.422,0.445,0.2414,0.422
+Linear,20%,normal,falling,medium,11,0.52,0.599,-1.0814,0.419
+Linear,20%,high_temp,stable,medium,7,0.533,0.586,-7.4197,-0.533
+Linear,20%,stagnant_wind,stable,medium,9,1.002,1.051,-9.3575,1.002
+Linear,20%,low_temp,stable,long,40,3.66,4.096,-0.0678,1.032
+Linear,20%,normal,stable,long,43,1.715,2.236,0.042,-0.562
+Linear,20%,low_temp,crossing,short,5,0.679,0.71,-4.8273,0.679
+Linear,20%,normal,stable,short,5,0.168,0.237,-0.2388,-0.094
+Linear,20%,low_temp,stable,short,3,0.17,0.198,-1.2313,-0.125
+Linear,20%,normal,falling,short,5,0.95,1.205,0.7255,-0.479
+Linear,20%,normal,falling,medium,7,2.038,2.194,-6.9773,2.038
+Linear,20%,normal,stable,short,5,0.312,0.381,-0.9886,0.175
+Linear,20%,low_temp,crossing,medium,7,1.115,1.231,-1.698,1.115
+Linear,20%,high_temp,stable,short,1,0.166,0.166,,-0.166
+Linear,20%,normal,stable,short,1,0.07,0.07,,0.07
+Linear,20%,normal,falling,medium,11,0.331,0.372,0.8668,0.326
+Linear,20%,normal,crossing,short,3,1.463,1.903,-0.0303,1.325
+Linear,20%,normal,falling,short,5,0.228,0.272,0.9439,0.067
+Linear,20%,normal,falling,long,40,3.54,3.95,-0.0178,-1.186
+Linear,20%,high_temp,crossing,medium,21,1.449,1.751,0.5945,-1.439
+Linear,20%,stagnant_wind,stable,short,3,0.571,0.606,-52.6975,0.571
+Linear,20%,normal,crossing,medium,16,2.282,2.702,0.128,2.263
+Linear,20%,low_temp,crossing,long,33,0.777,0.899,-3.7029,0.637
+Linear,20%,normal,rising,medium,14,2.476,2.636,-7.8343,-2.476
+Linear,20%,extreme_high_temp,crossing,medium,7,0.234,0.255,0.9703,-0.234
+Linear,20%,stagnant_wind,rising,medium,15,2.427,2.841,-0.4226,2.427
+Linear,20%,normal,stable,medium,15,1.781,1.939,-5.6225,-1.781
+Linear,20%,normal,rising,short,1,0.162,0.162,,-0.162
+Linear,20%,normal,stable,short,3,0.18,0.188,-5.4289,-0.18
+Linear,20%,normal,falling,medium,9,0.351,0.456,0.8712,-0.204
+Linear,20%,normal,stable,short,3,0.559,0.57,-10.4902,0.559
+Linear,20%,normal,stable,medium,17,2.432,2.549,-4.3272,-2.432
+Linear,20%,normal,stable,medium,21,1.346,1.553,-3.0822,-1.346
+Linear,20%,normal,stable,long,33,2.74,3.695,-0.601,-2.532
+Linear,20%,normal,stable,short,5,0.461,0.512,-4.2776,0.461
+Linear,20%,stagnant_wind,falling,short,3,0.43,0.445,0.6161,-0.43
+Linear,20%,stagnant_wind,crossing,medium,13,2.125,2.544,0.1616,2.045
+Linear,20%,normal,stable,short,3,0.139,0.148,-1.618,-0.139
+Linear,20%,extreme_high_temp,stable,medium,7,0.571,0.636,-0.9829,-0.571
+Linear,20%,normal,falling,short,5,0.84,1.03,0.4559,0.683
+Linear,20%,normal,stable,short,3,0.087,0.088,0.0288,-0.018
+Linear,20%,low_temp,crossing,medium,22,2.621,3.047,-2.171,2.621
+Linear,20%,normal,stable,short,1,0.448,0.448,,-0.448
+Linear,20%,normal,crossing,medium,20,3.117,3.48,-2.5567,3.117
+Spline,20%,extreme_high_temp,crossing,medium,19,1.438,1.823,0.7527,-0.77
+Spline,20%,stagnant_wind,rising,short,3,1.348,1.526,-3.5114,-1.348
+Spline,20%,normal,crossing,medium,19,2.069,2.191,0.4253,-0.253
+Spline,20%,normal,rising,long,39,3.183,3.507,-0.5468,-1.031
+Spline,20%,normal,falling,medium,17,0.722,0.926,0.6391,-0.421
+Spline,20%,high_temp,crossing,medium,15,1.063,1.232,0.2363,1.063
+Spline,20%,extreme_high_temp,stable,short,3,1.445,1.453,-43.8032,-1.445
+Spline,20%,stagnant_wind,stable,short,3,0.536,0.635,-124.8782,-0.536
+Spline,20%,low_temp,stable,medium,9,0.975,1.047,-1.5171,0.285
+Spline,20%,normal,crossing,medium,19,5.26,5.7,-2.5624,5.26
+Spline,20%,extreme_high_temp,rising,medium,19,13.234,13.391,-71.0575,-13.234
+Spline,20%,stagnant_wind,crossing,short,3,0.108,0.145,-12.7041,0.05
+Spline,20%,normal,crossing,long,47,5.882,6.447,-2.3562,2.996
+Spline,20%,stagnant_wind,stable,long,25,1.405,1.92,-0.0395,0.556
+Spline,20%,low_temp,crossing,medium,15,3.513,3.706,-4.6565,3.513
+Spline,20%,low_temp,crossing,short,3,1.106,1.176,-0.8468,1.106
+Spline,20%,normal,stable,short,3,3.535,3.552,-401.9655,-3.535
+Spline,20%,low_temp,crossing,long,35,3.806,4.475,-0.592,3.49
+Spline,20%,low_temp,crossing,short,3,0.765,0.961,0.5004,0.299
+Spline,20%,stagnant_wind,stable,short,5,1.295,1.347,-97.4104,1.295
+Spline,20%,normal,falling,medium,11,1.374,1.484,0.4904,-0.6
+Spline,20%,low_temp,crossing,short,5,7.022,7.146,-21.8813,7.022
+Spline,20%,low_temp,crossing,medium,7,1.594,1.884,0.1749,1.583
+Spline,20%,normal,stable,short,5,0.269,0.353,-2.1958,0.09
+Spline,20%,stagnant_wind,stable,medium,7,1.64,1.8,-48.6761,1.64
+Spline,20%,normal,crossing,medium,23,5.345,6.046,-3.254,5.345
+Spline,20%,normal,stable,long,45,3.137,3.303,-8.4319,-3.137
+Spline,20%,normal,crossing,medium,17,2.904,3.627,-0.667,-2.545
+Spline,20%,stagnant_wind,stable,short,1,6.492,6.492,,6.492
+Spline,20%,normal,stable,long,27,8.898,9.207,-13.2742,8.898
+Spline,20%,normal,stable,short,5,1.273,1.278,-49.5505,-1.273
+Spline,20%,normal,crossing,long,39,10.426,11.381,-9.313,-10.426
+Spline,20%,normal,stable,medium,7,0.529,0.624,-6.511,-0.529
+Spline,20%,normal,stable,long,42,5.389,6.531,-6.0039,5.103
+Spline,20%,normal,crossing,medium,21,2.885,3.327,-3.2355,2.885
+Spline,20%,stagnant_wind,crossing,medium,7,0.974,1.062,-3.725,0.974
+Spline,20%,normal,rising,medium,13,1.529,1.7,0.8234,0.342
+Spline,20%,stagnant_wind,stable,short,2,0.518,0.553,-3.8143,0.518
+Spline,20%,normal,crossing,long,37,1.726,2.087,0.4709,-0.814
+Spline,20%,normal,crossing,medium,18,1.993,2.246,-0.7337,1.462
+Spline,20%,normal,falling,long,43,3.036,3.2,-1.0086,2.115
+Spline,20%,normal,crossing,long,37,3.749,3.856,-0.9104,2.779
+Spline,20%,normal,stable,long,41,3.693,4.389,-3.5774,-3.693
+Spline,20%,high_temp,crossing,medium,23,2.389,2.564,0.6677,-0.737
+Spline,20%,low_temp,stable,short,3,4.242,4.252,-3343.3056,4.242
+Spline,20%,normal,stable,long,37,4.865,5.103,-13.716,4.865
+Spline,20%,low_temp,stable,short,1,0.839,0.839,,0.839
+Spline,20%,high_temp,stable,long,28,6.907,7.972,-6.4245,-6.907
+Spline,20%,normal,rising,medium,7,2.283,2.305,-3.6524,-2.283
+Spline,20%,normal,stable,medium,7,1.02,1.119,-0.8075,-0.609
+Spline,20%,high_temp,crossing,short,3,4.016,4.372,-5.9592,-4.016
+Spline,20%,normal,crossing,medium,9,1.35,1.67,0.5997,1.35
+Spline,20%,normal,stable,medium,17,4.579,4.798,-16.2975,-4.579
+Spline,20%,stagnant_wind,stable,medium,9,2.829,3.115,-9.8511,2.829
+Spline,20%,normal,stable,long,33,7.787,8.307,-9.6646,7.787
+Spline,20%,normal,stable,medium,7,1.583,1.612,-9.6532,-1.583
+Spline,20%,low_temp,crossing,medium,21,3.471,3.656,-6.2405,3.471
+Spline,20%,normal,rising,short,3,0.512,0.655,-0.1194,-0.477
+Spline,20%,normal,rising,long,25,1.217,1.505,-0.4587,1.124
+Spline,20%,high_temp,crossing,medium,19,2.146,2.27,0.3207,-2.146
+Spline,20%,normal,falling,short,3,3.903,4.029,-36.9125,3.903
+Spline,20%,normal,crossing,medium,17,2.103,2.583,0.5057,1.942
+Spline,20%,low_temp,rising,medium,17,3.11,3.417,-2.5801,3.11
+Spline,20%,normal,stable,short,3,2.007,2.016,-290.2721,2.007
+Spline,20%,normal,crossing,medium,23,2.318,2.547,0.4458,2.318
+Spline,20%,extreme_high_temp,stable,short,5,1.019,1.145,-5.3666,-1.019
+Spline,20%,normal,falling,short,5,0.594,0.66,0.5847,-0.31
+Spline,20%,normal,rising,short,5,0.801,0.933,0.1539,-0.801
+Spline,20%,normal,crossing,short,5,0.392,0.42,-3.7635,0.277
+Spline,20%,normal,stable,short,3,2.653,2.725,-35.6086,-2.653
+Spline,20%,normal,crossing,long,25,0.767,0.824,0.9382,0.285
+Spline,20%,stagnant_wind,stable,short,5,1.827,1.846,-13.7659,1.827
+Spline,20%,normal,rising,short,3,5.772,5.816,-61.2294,-5.772
+Spline,20%,extreme_high_temp,stable,short,5,0.2,0.23,-3.9401,0.012
+Spline,20%,normal,rising,short,3,5.238,5.461,-18.4736,5.238
+Spline,20%,normal,crossing,long,39,5.801,6.23,-1.9753,-0.029
+Spline,20%,normal,crossing,medium,19,1.161,1.538,0.3112,-0.835
+Spline,20%,extreme_high_temp,crossing,short,5,0.808,0.914,0.4125,-0.808
+Spline,20%,normal,falling,medium,12,3.425,3.872,-11.2471,3.425
+Spline,20%,normal,crossing,long,25,1.402,1.644,0.5258,1.199
+Spline,20%,normal,stable,long,37,2.567,2.954,0.11,0.038
+Spline,20%,normal,rising,long,47,5.164,6.46,-2.0438,-5.148
+Spline,20%,normal,crossing,medium,17,0.535,0.631,0.9605,0.238
+Spline,20%,normal,crossing,medium,11,1.842,2.051,0.4505,0.899
+Spline,20%,normal,falling,short,1,0.098,0.098,,0.098
+Spline,20%,high_temp,crossing,short,5,1.05,1.09,-0.2426,1.05
+Spline,20%,high_temp,stable,short,5,0.745,0.957,-30.8923,-0.644
+Spline,20%,extreme_high_temp,crossing,medium,17,4.253,4.467,-13.4852,-4.253
+Spline,20%,normal,falling,medium,9,3.856,3.99,-11.3163,-3.856
+Spline,20%,normal,stable,short,3,0.218,0.23,-0.0159,-0.138
+Spline,20%,extreme_high_temp,crossing,short,5,0.425,0.462,0.8883,-0.271
+Spline,20%,normal,crossing,long,29,6.034,7.252,-3.3049,6.034
+Spline,20%,normal,crossing,medium,17,0.853,0.99,0.8682,-0.797
+Spline,20%,normal,stable,short,3,6.657,6.664,-429.0589,-6.657
+Spline,20%,normal,stable,short,5,0.561,0.763,-12.6194,0.538
+Spline,20%,extreme_high_temp,stable,short,3,1.7,1.737,-30.5433,1.7
+Spline,20%,normal,stable,short,2,1.534,1.534,-479.2823,-1.534
+Spline,20%,normal,stable,short,1,2.244,2.244,,2.244
+Spline,20%,normal,rising,short,3,0.24,0.299,0.8219,0.106
+Spline,20%,normal,rising,long,29,5.189,6.111,-0.8791,4.76
+Spline,20%,normal,falling,short,3,1.3,1.323,-2.4491,-1.3
+Spline,20%,high_temp,crossing,medium,11,0.448,0.496,0.9578,0.179
+Spline,20%,low_temp,crossing,medium,17,0.282,0.45,0.2349,0.266
+Spline,20%,extreme_high_temp,crossing,medium,9,0.779,0.99,0.7992,-0.779
+Spline,20%,normal,stable,long,44,3.398,4.521,-0.3654,-1.908
+Spline,20%,normal,rising,short,5,1.743,1.752,-2.0973,-1.743
+Spline,20%,normal,stable,short,5,2.428,2.433,-178.8836,-2.428
+Spline,20%,stagnant_wind,crossing,short,5,0.957,1.316,0.5175,0.952
+Spline,20%,normal,falling,medium,13,1.454,1.853,-1.1003,-1.324
+Spline,20%,normal,rising,short,3,0.328,0.377,0.78,-0.241
+Spline,20%,normal,crossing,short,5,2.714,2.771,-9.0219,-2.714
+Spline,20%,extreme_high_temp,crossing,short,5,2.057,2.186,0.055,-0.377
+Spline,20%,low_temp,stable,short,3,1.713,1.722,-57.0641,1.713
+Spline,20%,normal,stable,short,5,2.596,2.604,-76.6273,-2.596
+Spline,20%,extreme_high_temp,crossing,long,31,7.005,7.975,-2.4101,-6.905
+Spline,20%,normal,falling,medium,11,1.048,1.192,0.5689,0.586
+Spline,20%,stagnant_wind,crossing,medium,10,0.816,1.105,-0.6665,0.568
+Spline,20%,normal,falling,long,25,1.747,2.247,-0.8335,-1.603
+Spline,20%,normal,stable,long,29,2.728,2.905,-7.937,2.367
+Spline,20%,normal,crossing,medium,21,3.014,3.583,-0.8375,2.996
+Spline,20%,extreme_high_temp,rising,medium,9,1.786,1.842,-5.0582,-1.786
+Spline,20%,normal,stable,long,49,3.248,3.724,-1.9994,1.581
+Spline,20%,normal,stable,medium,15,4.698,5.154,-2.3709,-4.419
+Spline,20%,normal,crossing,short,4,0.568,0.981,0.8897,0.562
+Spline,20%,high_temp,crossing,short,3,0.341,0.411,0.7894,0.099
+Spline,20%,normal,stable,short,1,0.766,0.766,,0.766
+Spline,20%,low_temp,stable,medium,21,3.336,3.378,-264.3383,3.336
+Spline,20%,low_temp,crossing,medium,11,2.44,2.633,-0.523,2.44
+Spline,20%,normal,stable,short,1,0.455,0.455,,0.455
+Spline,20%,normal,crossing,medium,11,0.934,1.035,0.8581,-0.515
+Spline,20%,normal,stable,long,49,3.0,3.333,-1.6094,0.504
+Spline,20%,normal,stable,medium,21,1.452,1.597,-3.8813,1.398
+Spline,20%,normal,crossing,medium,13,1.584,1.664,0.5311,1.584
+Spline,20%,normal,rising,medium,12,3.623,3.826,0.2628,1.554
+Spline,20%,normal,falling,short,1,0.04,0.04,,0.04
+Spline,20%,normal,stable,short,5,0.943,0.979,-0.1814,0.943
+Spline,20%,extreme_high_temp,falling,short,5,0.944,1.026,-0.0453,-0.944
+Spline,20%,stagnant_wind,crossing,medium,13,4.077,4.216,-8.8678,4.077
+Spline,20%,stagnant_wind,stable,short,1,2.219,2.219,,-2.219
+Spline,20%,low_temp,crossing,medium,21,3.195,3.509,-3.1521,3.195
+Spline,20%,stagnant_wind,stable,short,1,1.085,1.085,,-1.085
+Spline,20%,low_temp,stable,short,3,1.285,1.286,-512.7919,1.285
+Spline,20%,normal,crossing,short,5,0.188,0.211,0.9701,-0.095
+Spline,20%,normal,stable,short,3,0.465,0.594,0.5201,-0.155
+Spline,20%,stagnant_wind,stable,short,4,2.358,2.4,-65.9968,2.358
+Spline,20%,stagnant_wind,rising,short,3,1.001,1.189,-0.2948,1.001
+Spline,20%,normal,rising,medium,9,5.374,5.632,-3.7749,5.374
+Spline,20%,normal,rising,short,5,1.353,1.363,-10.3748,-1.353
+Spline,20%,stagnant_wind,rising,medium,13,2.878,3.206,-7.5631,2.878
+Spline,20%,high_temp,rising,medium,23,2.452,3.044,-0.3552,2.36
+Spline,20%,stagnant_wind,stable,medium,7,0.48,0.552,-4.0778,0.48
+Spline,20%,normal,crossing,medium,7,0.476,0.583,0.7238,-0.304
+Spline,20%,high_temp,stable,medium,7,0.633,0.689,-7.2437,-0.633
+Spline,20%,normal,stable,medium,19,0.681,0.747,-0.5352,0.44
+Spline,20%,normal,falling,short,3,0.892,0.965,-1.693,0.892
+Spline,20%,normal,crossing,long,45,6.576,7.312,-8.5325,-6.576
+Spline,20%,normal,stable,short,5,0.838,0.946,-3.0013,0.838
+Spline,20%,normal,stable,medium,7,0.334,0.386,0.4286,0.334
+Spline,20%,normal,falling,medium,11,0.605,0.677,-1.6636,-0.605
+Spline,20%,high_temp,stable,medium,7,0.684,0.696,-10.8874,-0.684
+Spline,20%,stagnant_wind,stable,medium,9,0.558,0.604,-2.4231,-0.002
+Spline,20%,low_temp,stable,long,40,3.66,4.096,-0.0678,1.032
+Spline,20%,normal,stable,long,43,2.41,2.865,-0.5732,-0.772
+Spline,20%,low_temp,crossing,short,5,1.227,1.247,-16.9549,1.227
+Spline,20%,normal,stable,short,5,0.473,0.534,-5.2862,0.21
+Spline,20%,low_temp,stable,short,3,1.275,1.288,-93.8275,-1.275
+Spline,20%,normal,falling,short,5,2.002,2.139,0.1344,0.968
+Spline,20%,normal,falling,medium,7,2.577,2.78,-11.8119,2.577
+Spline,20%,normal,stable,short,5,1.301,1.548,-31.8953,-1.264
+Spline,20%,low_temp,crossing,medium,7,2.192,2.33,-8.6629,2.192
+Spline,20%,high_temp,stable,short,1,1.091,1.091,,-1.091
+Spline,20%,normal,stable,short,1,0.783,0.783,,-0.783
+Spline,20%,normal,falling,medium,11,0.642,0.702,0.5257,-0.003
+Spline,20%,normal,crossing,short,3,1.495,1.817,0.0608,0.942
+Spline,20%,normal,falling,short,5,0.992,1.183,-0.0633,0.991
+Spline,20%,normal,falling,long,40,5.449,6.125,-1.4471,-2.14
+Spline,20%,high_temp,crossing,medium,21,2.507,3.002,-0.1918,1.344
+Spline,20%,stagnant_wind,stable,short,3,2.291,2.315,-783.3361,2.291
+Spline,20%,normal,crossing,medium,16,1.565,1.845,0.5933,1.525
+Spline,20%,low_temp,crossing,long,33,4.404,4.441,-113.8384,4.404
+Spline,20%,normal,rising,medium,14,6.564,6.651,-55.2354,-6.564
+Spline,20%,extreme_high_temp,crossing,medium,7,0.462,0.544,0.8646,-0.354
+Spline,20%,stagnant_wind,rising,medium,15,3.18,3.444,-1.0916,3.18
+Spline,20%,normal,stable,medium,15,3.305,3.501,-20.5921,-3.305
+Spline,20%,normal,rising,short,1,0.618,0.618,,-0.618
+Spline,20%,normal,stable,short,3,1.338,1.339,-326.3294,-1.338
+Spline,20%,normal,falling,medium,9,0.432,0.468,0.8639,-0.122
+Spline,20%,normal,stable,short,3,1.623,1.627,-92.6756,1.623
+Spline,20%,normal,stable,medium,17,2.444,2.504,-4.1393,-2.444
+Spline,20%,normal,stable,medium,21,2.61,2.808,-12.3454,-2.61
+Spline,20%,normal,stable,long,33,6.495,7.173,-5.0317,-6.495
+Spline,20%,normal,stable,short,5,0.209,0.266,-0.426,-0.065
+Spline,20%,stagnant_wind,falling,short,3,0.678,0.78,-0.1822,-0.678
+Spline,20%,stagnant_wind,crossing,medium,13,2.287,2.568,0.1457,1.778
+Spline,20%,normal,stable,short,3,0.581,0.682,-54.6297,-0.581
+Spline,20%,extreme_high_temp,stable,medium,7,3.354,3.397,-55.6574,-3.354
+Spline,20%,normal,falling,short,5,1.302,1.328,0.095,0.423
+Spline,20%,normal,stable,short,3,0.326,0.332,-12.6577,-0.326
+Spline,20%,low_temp,crossing,medium,22,2.001,2.534,-1.1936,1.688
+Spline,20%,normal,stable,short,1,2.687,2.687,,-2.687
+Spline,20%,normal,crossing,medium,20,3.046,3.325,-2.247,3.046
+Diagonal Climatology,20%,extreme_high_temp,crossing,medium,19,1.908,2.124,0.664,-0.062
+Diagonal Climatology,20%,stagnant_wind,rising,short,3,0.647,0.824,-0.3159,-0.647
+Diagonal Climatology,20%,normal,crossing,medium,19,2.224,2.24,0.3995,2.224
+Diagonal Climatology,20%,normal,rising,long,39,0.579,0.647,0.9474,-0.11
+Diagonal Climatology,20%,normal,falling,medium,17,2.902,2.942,-2.6458,-2.902
+Diagonal Climatology,20%,high_temp,crossing,medium,15,1.532,1.66,-0.3865,-1.532
+Diagonal Climatology,20%,extreme_high_temp,stable,short,3,1.506,1.514,-47.6808,1.506
+Diagonal Climatology,20%,stagnant_wind,stable,short,3,0.434,0.435,-58.0255,-0.434
+Diagonal Climatology,20%,low_temp,stable,medium,9,0.786,0.872,-0.7429,0.786
+Diagonal Climatology,20%,normal,crossing,medium,19,2.777,2.825,0.1246,2.777
+Diagonal Climatology,20%,extreme_high_temp,rising,medium,19,2.484,2.534,-1.5808,-2.484
+Diagonal Climatology,20%,stagnant_wind,crossing,short,3,0.06,0.068,-1.9883,-0.007
+Diagonal Climatology,20%,normal,crossing,long,47,1.374,1.557,0.8043,1.303
+Diagonal Climatology,20%,stagnant_wind,stable,long,25,2.724,3.209,-1.9042,2.593
+Diagonal Climatology,20%,low_temp,crossing,medium,15,1.211,1.278,0.327,1.211
+Diagonal Climatology,20%,low_temp,crossing,short,3,1.221,1.241,-1.0573,1.221
+Diagonal Climatology,20%,normal,stable,short,3,0.221,0.271,-1.3543,0.216
+Diagonal Climatology,20%,low_temp,crossing,long,35,3.686,3.722,-0.1011,3.686
+Diagonal Climatology,20%,low_temp,crossing,short,3,0.498,0.595,0.8087,0.498
+Diagonal Climatology,20%,stagnant_wind,stable,short,5,0.25,0.355,-5.8251,0.25
+Diagonal Climatology,20%,normal,falling,medium,11,0.28,0.315,0.9771,0.249
+Diagonal Climatology,20%,low_temp,crossing,short,5,3.454,3.459,-4.3603,3.454
+Diagonal Climatology,20%,low_temp,crossing,medium,7,0.334,0.42,0.9591,0.259
+Diagonal Climatology,20%,normal,stable,short,5,1.376,1.527,-58.6681,1.376
+Diagonal Climatology,20%,stagnant_wind,stable,medium,7,0.81,0.877,-10.8015,-0.81
+Diagonal Climatology,20%,normal,crossing,medium,23,2.116,2.147,0.4634,-2.116
+Diagonal Climatology,20%,normal,stable,long,45,1.379,1.658,-1.3757,-0.148
+Diagonal Climatology,20%,normal,crossing,medium,17,1.466,1.54,0.6995,0.067
+Diagonal Climatology,20%,stagnant_wind,stable,short,1,1.298,1.298,,-1.298
+Diagonal Climatology,20%,normal,stable,long,27,0.851,1.064,0.8094,-0.843
+Diagonal Climatology,20%,normal,stable,short,5,2.027,2.059,-130.1433,-2.027
+Diagonal Climatology,20%,normal,crossing,long,39,2.43,2.625,0.4515,2.43
+Diagonal Climatology,20%,normal,stable,medium,7,0.836,0.959,-16.7391,-0.836
+Diagonal Climatology,20%,normal,stable,long,42,0.728,0.884,0.8716,-0.548
+Diagonal Climatology,20%,normal,crossing,medium,21,0.912,1.084,0.5501,0.912
+Diagonal Climatology,20%,stagnant_wind,crossing,medium,7,0.746,0.857,-2.0742,-0.725
+Diagonal Climatology,20%,normal,rising,medium,13,3.597,3.885,0.0771,3.597
+Diagonal Climatology,20%,stagnant_wind,stable,short,2,0.471,0.471,-2.4936,-0.007
+Diagonal Climatology,20%,normal,crossing,long,37,0.898,1.038,0.869,0.872
+Diagonal Climatology,20%,normal,crossing,medium,18,0.923,1.145,0.5494,-0.439
+Diagonal Climatology,20%,normal,falling,long,43,1.248,1.832,0.3415,1.024
+Diagonal Climatology,20%,normal,crossing,long,37,1.102,1.354,0.7643,0.679
+Diagonal Climatology,20%,normal,stable,long,41,1.624,1.897,0.1449,1.614
+Diagonal Climatology,20%,high_temp,crossing,medium,23,2.419,2.532,0.676,-2.419
+Diagonal Climatology,20%,low_temp,stable,short,3,2.876,2.888,-1542.4034,2.876
+Diagonal Climatology,20%,normal,stable,long,37,0.956,1.085,0.3353,-0.949
+Diagonal Climatology,20%,low_temp,stable,short,1,1.002,1.002,,1.002
+Diagonal Climatology,20%,high_temp,stable,long,28,3.209,3.499,-0.4302,-3.209
+Diagonal Climatology,20%,normal,rising,medium,7,0.593,0.668,0.6091,0.593
+Diagonal Climatology,20%,normal,stable,medium,7,2.623,3.111,-12.9626,2.623
+Diagonal Climatology,20%,high_temp,crossing,short,3,4.016,4.202,-5.4267,4.016
+Diagonal Climatology,20%,normal,crossing,medium,9,0.471,0.536,0.9588,-0.137
+Diagonal Climatology,20%,normal,stable,medium,17,0.601,0.647,0.6854,-0.55
+Diagonal Climatology,20%,stagnant_wind,stable,medium,9,2.257,2.439,-5.6554,-2.257
+Diagonal Climatology,20%,normal,stable,long,33,0.829,1.073,0.8221,-0.161
+Diagonal Climatology,20%,normal,stable,medium,7,0.586,0.715,-1.0928,-0.586
+Diagonal Climatology,20%,low_temp,crossing,medium,21,1.201,1.451,-0.1405,1.192
+Diagonal Climatology,20%,normal,rising,short,3,1.838,1.842,-7.8473,1.838
+Diagonal Climatology,20%,normal,rising,long,25,0.464,0.574,0.7878,0.334
+Diagonal Climatology,20%,high_temp,crossing,medium,19,5.557,5.617,-3.1583,-5.557
+Diagonal Climatology,20%,normal,falling,short,3,10.557,10.584,-260.6693,10.557
+Diagonal Climatology,20%,normal,crossing,medium,17,1.458,1.516,0.8297,1.458
+Diagonal Climatology,20%,low_temp,rising,medium,17,2.795,2.994,-1.7493,2.795
+Diagonal Climatology,20%,normal,stable,short,3,1.041,1.044,-77.0734,-1.041
+Diagonal Climatology,20%,normal,crossing,medium,23,2.817,2.895,0.2837,-2.817
+Diagonal Climatology,20%,extreme_high_temp,stable,short,5,2.592,2.615,-32.2076,-2.592
+Diagonal Climatology,20%,normal,falling,short,5,0.235,0.259,0.9362,0.018
+Diagonal Climatology,20%,normal,rising,short,5,0.472,0.541,0.7155,-0.021
+Diagonal Climatology,20%,normal,crossing,short,5,0.165,0.186,0.0669,-0.083
+Diagonal Climatology,20%,normal,stable,short,3,1.457,1.594,-11.5252,-1.457
+Diagonal Climatology,20%,normal,crossing,long,25,0.64,0.727,0.952,0.507
+Diagonal Climatology,20%,stagnant_wind,stable,short,5,3.18,3.215,-43.7824,-3.18
+Diagonal Climatology,20%,normal,rising,short,3,2.027,2.031,-6.5894,2.027
+Diagonal Climatology,20%,extreme_high_temp,stable,short,5,1.404,1.459,-198.5407,-1.404
+Diagonal Climatology,20%,normal,rising,short,3,5.859,6.024,-22.6949,5.859
+Diagonal Climatology,20%,normal,crossing,long,39,2.219,2.41,0.5549,2.219
+Diagonal Climatology,20%,normal,crossing,medium,19,0.469,0.577,0.903,0.319
+Diagonal Climatology,20%,extreme_high_temp,crossing,short,5,0.931,0.972,0.3362,-0.931
+Diagonal Climatology,20%,normal,falling,medium,12,1.46,1.482,-0.7935,-1.46
+Diagonal Climatology,20%,normal,crossing,long,25,4.146,4.259,-2.1841,-4.146
+Diagonal Climatology,20%,normal,stable,long,37,3.183,3.929,-0.5742,3.183
+Diagonal Climatology,20%,normal,rising,long,47,4.218,4.647,-0.575,-4.218
+Diagonal Climatology,20%,normal,crossing,medium,17,1.695,1.766,0.6903,1.695
+Diagonal Climatology,20%,normal,crossing,medium,11,2.119,2.331,0.2905,1.543
+Diagonal Climatology,20%,normal,falling,short,1,2.465,2.465,,2.465
+Diagonal Climatology,20%,high_temp,crossing,short,5,0.375,0.426,0.8104,-0.375
+Diagonal Climatology,20%,high_temp,stable,short,5,0.398,0.546,-9.3944,-0.39
+Diagonal Climatology,20%,extreme_high_temp,crossing,medium,17,0.964,1.091,0.1367,0.964
+Diagonal Climatology,20%,normal,falling,medium,9,0.595,0.854,0.4357,0.183
+Diagonal Climatology,20%,normal,stable,short,3,1.122,1.14,-23.9328,1.122
+Diagonal Climatology,20%,extreme_high_temp,crossing,short,5,2.79,2.812,-3.1387,-2.79
+Diagonal Climatology,20%,normal,crossing,long,29,2.663,2.788,0.3636,2.663
+Diagonal Climatology,20%,normal,crossing,medium,17,2.287,2.302,0.2869,2.287
+Diagonal Climatology,20%,normal,stable,short,3,2.223,2.224,-46.9058,-2.223
+Diagonal Climatology,20%,normal,stable,short,5,0.373,0.428,-3.2942,-0.373
+Diagonal Climatology,20%,extreme_high_temp,stable,short,3,0.334,0.452,-1.1366,0.171
+Diagonal Climatology,20%,normal,stable,short,2,3.797,3.797,-2941.0301,3.797
+Diagonal Climatology,20%,normal,stable,short,1,2.533,2.533,,-2.533
+Diagonal Climatology,20%,normal,rising,short,3,0.849,0.904,-0.6253,0.849
+Diagonal Climatology,20%,normal,rising,long,29,2.214,2.32,0.7291,2.214
+Diagonal Climatology,20%,normal,falling,short,3,2.392,2.432,-10.6572,-2.392
+Diagonal Climatology,20%,high_temp,crossing,medium,11,2.672,2.73,-0.2812,-2.672
+Diagonal Climatology,20%,low_temp,crossing,medium,17,1.113,1.369,-6.0917,0.931
+Diagonal Climatology,20%,extreme_high_temp,crossing,medium,9,3.816,3.841,-2.0248,-3.816
+Diagonal Climatology,20%,normal,stable,long,44,2.433,2.666,0.5253,2.433
+Diagonal Climatology,20%,normal,rising,short,5,1.02,1.039,-0.0896,1.02
+Diagonal Climatology,20%,normal,stable,short,5,2.028,2.033,-124.6757,2.028
+Diagonal Climatology,20%,stagnant_wind,crossing,short,5,0.83,1.064,0.6847,0.575
+Diagonal Climatology,20%,normal,falling,medium,13,0.71,0.85,0.5582,0.687
+Diagonal Climatology,20%,normal,rising,short,3,0.941,0.961,-0.429,-0.941
+Diagonal Climatology,20%,normal,crossing,short,5,1.653,1.667,-2.6299,1.653
+Diagonal Climatology,20%,extreme_high_temp,crossing,short,5,1.778,2.28,-0.0279,1.506
+Diagonal Climatology,20%,low_temp,stable,short,3,2.057,2.069,-82.8736,2.057
+Diagonal Climatology,20%,normal,stable,short,5,0.298,0.316,-0.1426,0.226
+Diagonal Climatology,20%,extreme_high_temp,crossing,long,31,1.767,2.016,0.782,-1.728
+Diagonal Climatology,20%,normal,falling,medium,11,1.985,2.174,-0.433,-1.985
+Diagonal Climatology,20%,stagnant_wind,crossing,medium,10,0.898,1.141,-0.7788,0.421
+Diagonal Climatology,20%,normal,falling,long,25,0.468,0.546,0.8919,0.17
+Diagonal Climatology,20%,normal,stable,long,29,1.534,1.848,-2.6173,-1.173
+Diagonal Climatology,20%,normal,crossing,medium,21,1.464,1.556,0.6537,-1.464
+Diagonal Climatology,20%,extreme_high_temp,rising,medium,9,3.735,3.74,-23.9897,-3.735
+Diagonal Climatology,20%,normal,stable,long,49,1.374,1.517,0.502,-1.368
+Diagonal Climatology,20%,normal,stable,medium,15,4.473,4.632,-1.7234,-3.956
+Diagonal Climatology,20%,normal,crossing,short,4,0.444,0.669,0.9486,0.203
+Diagonal Climatology,20%,high_temp,crossing,short,3,1.516,1.535,-1.9373,1.516
+Diagonal Climatology,20%,normal,stable,short,1,1.31,1.31,,1.31
+Diagonal Climatology,20%,low_temp,stable,medium,21,2.686,2.963,-203.1934,2.686
+Diagonal Climatology,20%,low_temp,crossing,medium,11,1.124,1.226,0.6696,0.891
+Diagonal Climatology,20%,normal,stable,short,1,0.323,0.323,,0.323
+Diagonal Climatology,20%,normal,crossing,medium,11,2.637,2.656,0.0655,2.637
+Diagonal Climatology,20%,normal,stable,long,49,0.518,0.679,0.8917,-0.295
+Diagonal Climatology,20%,normal,stable,medium,21,3.058,3.609,-23.9374,3.058
+Diagonal Climatology,20%,normal,crossing,medium,13,1.116,1.279,0.7232,1.099
+Diagonal Climatology,20%,normal,rising,medium,12,2.215,2.376,0.7157,2.215
+Diagonal Climatology,20%,normal,falling,short,1,1.805,1.805,,1.805
+Diagonal Climatology,20%,normal,stable,short,5,3.044,3.07,-10.6293,3.044
+Diagonal Climatology,20%,extreme_high_temp,falling,short,5,1.135,1.161,-0.3393,-1.135
+Diagonal Climatology,20%,stagnant_wind,crossing,medium,13,0.363,0.433,0.8957,0.108
+Diagonal Climatology,20%,stagnant_wind,stable,short,1,0.15,0.15,,-0.15
+Diagonal Climatology,20%,low_temp,crossing,medium,21,0.843,0.928,0.7094,0.843
+Diagonal Climatology,20%,stagnant_wind,stable,short,1,1.286,1.286,,-1.286
+Diagonal Climatology,20%,low_temp,stable,short,3,3.074,3.084,-2951.74,3.074
+Diagonal Climatology,20%,normal,crossing,short,5,2.743,2.749,-4.1023,2.743
+Diagonal Climatology,20%,normal,stable,short,3,2.618,2.656,-8.5981,2.618
+Diagonal Climatology,20%,stagnant_wind,stable,short,4,1.709,1.73,-33.8193,-1.709
+Diagonal Climatology,20%,stagnant_wind,rising,short,3,2.224,2.233,-3.5671,-2.224
+Diagonal Climatology,20%,normal,rising,medium,9,1.38,1.467,0.676,1.38
+Diagonal Climatology,20%,normal,rising,short,5,0.735,0.764,-2.5739,0.735
+Diagonal Climatology,20%,stagnant_wind,rising,medium,13,0.941,1.054,0.0749,-0.941
+Diagonal Climatology,20%,high_temp,rising,medium,23,2.851,3.026,-0.3391,-2.851
+Diagonal Climatology,20%,stagnant_wind,stable,medium,7,1.636,1.641,-43.8265,-1.636
+Diagonal Climatology,20%,normal,crossing,medium,7,1.579,1.683,-1.2968,-1.579
+Diagonal Climatology,20%,high_temp,stable,medium,7,0.368,0.453,-2.5737,0.29
+Diagonal Climatology,20%,normal,stable,medium,19,1.04,1.313,-3.7444,1.04
+Diagonal Climatology,20%,normal,falling,short,3,3.299,3.328,-30.9933,-3.299
+Diagonal Climatology,20%,normal,crossing,long,45,0.54,0.662,0.9218,-0.517
+Diagonal Climatology,20%,normal,stable,short,5,0.499,0.508,-0.1561,-0.499
+Diagonal Climatology,20%,normal,stable,medium,7,1.251,1.318,-5.6628,1.251
+Diagonal Climatology,20%,normal,falling,medium,11,0.277,0.354,0.2721,-0.23
+Diagonal Climatology,20%,high_temp,stable,medium,7,0.577,0.584,-7.3728,0.577
+Diagonal Climatology,20%,stagnant_wind,stable,medium,9,0.712,0.734,-4.0487,-0.712
+Diagonal Climatology,20%,low_temp,stable,long,40,1.381,1.464,0.8637,1.381
+Diagonal Climatology,20%,normal,stable,long,43,1.556,1.69,0.4528,0.22
+Diagonal Climatology,20%,low_temp,crossing,short,5,0.904,0.931,-9.0047,0.904
+Diagonal Climatology,20%,normal,stable,short,5,1.361,1.383,-41.1775,-1.361
+Diagonal Climatology,20%,low_temp,stable,short,3,0.789,0.815,-36.9185,-0.789
+Diagonal Climatology,20%,normal,falling,short,5,1.786,1.843,0.3578,0.469
+Diagonal Climatology,20%,normal,falling,medium,7,0.667,0.728,0.1219,-0.077
+Diagonal Climatology,20%,normal,stable,short,5,3.542,3.589,-175.8449,-3.542
+Diagonal Climatology,20%,low_temp,crossing,medium,7,1.673,1.686,-4.0587,1.673
+Diagonal Climatology,20%,high_temp,stable,short,1,2.637,2.637,,2.637
+Diagonal Climatology,20%,normal,stable,short,1,0.109,0.109,,0.109
+Diagonal Climatology,20%,normal,falling,medium,11,1.566,1.653,-1.6309,-1.566
+Diagonal Climatology,20%,normal,crossing,short,3,3.292,3.52,-2.524,3.292
+Diagonal Climatology,20%,normal,falling,short,5,1.494,1.587,-0.914,-1.494
+Diagonal Climatology,20%,normal,falling,long,40,1.781,1.899,0.7648,1.781
+Diagonal Climatology,20%,high_temp,crossing,medium,21,3.039,3.083,-0.2567,-3.039
+Diagonal Climatology,20%,stagnant_wind,stable,short,3,0.693,0.721,-75.1118,-0.693
+Diagonal Climatology,20%,normal,crossing,medium,16,0.664,0.735,0.9355,0.391
+Diagonal Climatology,20%,low_temp,crossing,long,33,2.014,2.264,-28.8354,2.014
+Diagonal Climatology,20%,normal,rising,medium,14,1.202,1.249,-0.9818,-1.202
+Diagonal Climatology,20%,extreme_high_temp,crossing,medium,7,2.017,2.019,-0.8638,-2.017
+Diagonal Climatology,20%,stagnant_wind,rising,medium,15,1.38,1.479,0.6146,1.38
+Diagonal Climatology,20%,normal,stable,medium,15,0.897,0.972,-0.6653,-0.897
+Diagonal Climatology,20%,normal,rising,short,1,2.603,2.603,,-2.603
+Diagonal Climatology,20%,normal,stable,short,3,2.829,2.831,-1462.4107,2.829
+Diagonal Climatology,20%,normal,falling,medium,9,2.588,2.671,-3.424,-2.588
+Diagonal Climatology,20%,normal,stable,short,3,1.151,1.165,-46.9978,1.151
+Diagonal Climatology,20%,normal,stable,medium,17,0.38,0.466,0.8219,-0.016
+Diagonal Climatology,20%,normal,stable,medium,21,0.447,0.531,0.5235,-0.377
+Diagonal Climatology,20%,normal,stable,long,33,1.363,1.658,0.6776,-0.719
+Diagonal Climatology,20%,normal,stable,short,5,1.801,1.813,-65.2382,-1.801
+Diagonal Climatology,20%,stagnant_wind,falling,short,3,0.201,0.231,0.8961,0.161
+Diagonal Climatology,20%,stagnant_wind,crossing,medium,13,0.538,0.598,0.9538,-0.478
+Diagonal Climatology,20%,normal,stable,short,3,2.571,2.578,-794.6747,-2.571
+Diagonal Climatology,20%,extreme_high_temp,stable,medium,7,1.832,1.843,-15.6772,1.832
+Diagonal Climatology,20%,normal,falling,short,5,1.755,1.982,-1.0142,-1.755
+Diagonal Climatology,20%,normal,stable,short,3,0.936,0.939,-108.3615,0.936
+Diagonal Climatology,20%,low_temp,crossing,medium,22,2.01,2.271,-0.7623,1.968
+Diagonal Climatology,20%,normal,stable,short,1,2.835,2.835,,2.835
+Diagonal Climatology,20%,normal,crossing,medium,20,1.431,1.554,0.2909,-1.431
+LOCF,20%,extreme_high_temp,crossing,medium,19,4.223,5.124,-0.9548,3.581
+LOCF,20%,stagnant_wind,rising,short,3,1.136,1.344,-2.4975,-1.136
+LOCF,20%,normal,crossing,medium,19,2.8,3.688,-0.6285,2.291
+LOCF,20%,normal,rising,long,39,2.698,3.468,-0.5123,-2.018
+LOCF,20%,normal,falling,medium,17,2.987,3.361,-3.7576,2.987
+LOCF,20%,high_temp,crossing,medium,15,4.078,4.315,-8.363,4.078
+LOCF,20%,extreme_high_temp,stable,short,3,0.279,0.322,-1.205,-0.238
+LOCF,20%,stagnant_wind,stable,short,3,0.05,0.062,-0.2166,0.026
+LOCF,20%,low_temp,stable,medium,9,1.458,1.601,-4.8774,1.458
+LOCF,20%,normal,crossing,medium,19,2.432,3.037,-0.0112,-0.32
+LOCF,20%,extreme_high_temp,rising,medium,19,9.74,9.867,-38.1228,-9.74
+LOCF,20%,stagnant_wind,crossing,short,3,0.054,0.067,-1.9192,0.054
+LOCF,20%,normal,crossing,long,47,3.569,4.116,-0.3679,2.134
+LOCF,20%,stagnant_wind,stable,long,25,1.732,2.015,-0.1457,0.719
+LOCF,20%,low_temp,crossing,medium,15,1.116,1.638,-0.1047,-0.504
+LOCF,20%,low_temp,crossing,short,3,1.703,1.91,-3.8729,-1.703
+LOCF,20%,normal,stable,short,3,0.863,0.881,-23.8088,-0.863
+LOCF,20%,low_temp,crossing,long,35,3.331,3.687,-0.0804,1.006
+LOCF,20%,low_temp,crossing,short,3,2.635,2.965,-3.759,-2.635
+LOCF,20%,stagnant_wind,stable,short,5,0.131,0.143,-0.1034,-0.044
+LOCF,20%,normal,falling,medium,11,2.121,2.97,-1.0406,2.121
+LOCF,20%,low_temp,crossing,short,5,4.882,5.106,-10.6795,4.882
+LOCF,20%,low_temp,crossing,medium,7,2.983,3.634,-2.0682,-2.983
+LOCF,20%,normal,stable,short,5,0.611,0.643,-9.5675,-0.611
+LOCF,20%,stagnant_wind,stable,medium,7,0.443,0.504,-2.8996,-0.435
+LOCF,20%,normal,crossing,medium,23,2.56,2.934,-0.0021,0.133
+LOCF,20%,normal,stable,long,45,1.41,1.702,-1.5029,1.319
+LOCF,20%,normal,crossing,medium,17,2.837,3.328,-0.4031,1.783
+LOCF,20%,stagnant_wind,stable,short,1,2.617,2.617,,2.617
+LOCF,20%,normal,stable,long,27,5.137,5.685,-4.4431,5.137
+LOCF,20%,normal,stable,short,5,0.304,0.333,-2.4343,-0.28
+LOCF,20%,normal,crossing,long,39,6.374,7.293,-3.2354,-6.374
+LOCF,20%,normal,stable,medium,7,6.266,6.27,-757.3875,-6.266
+LOCF,20%,normal,stable,long,42,3.08,3.849,-1.4331,2.954
+LOCF,20%,normal,crossing,medium,21,1.873,2.155,-0.7765,1.425
+LOCF,20%,stagnant_wind,crossing,medium,7,1.121,1.223,-5.2618,-1.121
+LOCF,20%,normal,rising,medium,13,5.151,6.497,-1.5809,-5.085
+LOCF,20%,stagnant_wind,stable,short,2,0.379,0.455,-2.2629,-0.379
+LOCF,20%,normal,crossing,long,37,2.604,3.287,-0.3127,-1.604
+LOCF,20%,normal,crossing,medium,18,1.522,1.741,-0.0421,0.35
+LOCF,20%,normal,falling,long,43,2.724,2.885,-0.6325,1.796
+LOCF,20%,normal,crossing,long,37,5.195,5.722,-3.2081,4.996
+LOCF,20%,normal,stable,long,41,1.876,2.633,-0.6475,-1.651
+LOCF,20%,high_temp,crossing,medium,23,6.972,7.998,-2.2327,-6.647
+LOCF,20%,low_temp,stable,short,3,6.743,6.743,-8410.925,6.743
+LOCF,20%,normal,stable,long,37,1.508,1.935,-1.1149,1.405
+LOCF,20%,low_temp,stable,short,1,0.018,0.018,,-0.018
+LOCF,20%,high_temp,stable,long,28,4.906,5.61,-2.6765,-4.786
+LOCF,20%,normal,rising,medium,7,2.711,2.914,-6.4383,-2.711
+LOCF,20%,normal,stable,medium,7,1.882,2.058,-5.1072,-1.882
+LOCF,20%,high_temp,crossing,short,3,6.397,6.608,-14.8952,-6.397
+LOCF,20%,normal,crossing,medium,9,4.015,4.805,-2.3142,-4.015
+LOCF,20%,normal,stable,medium,17,2.476,2.727,-4.5853,-2.47
+LOCF,20%,stagnant_wind,stable,medium,9,0.74,0.985,-0.0849,-0.276
+LOCF,20%,normal,stable,long,33,5.105,5.694,-4.0115,5.095
+LOCF,20%,normal,stable,medium,7,0.37,0.533,-0.1623,0.199
+LOCF,20%,low_temp,crossing,medium,21,1.132,1.437,-0.1189,0.468
+LOCF,20%,normal,rising,short,3,1.867,1.967,-9.092,-1.867
+LOCF,20%,normal,rising,long,25,1.291,1.402,-0.2675,0.644
+LOCF,20%,high_temp,crossing,medium,19,5.124,5.817,-3.4601,-5.124
+LOCF,20%,normal,falling,short,3,2.702,2.78,-17.0544,2.702
+LOCF,20%,normal,crossing,medium,17,3.218,4.066,-0.2249,-1.742
+LOCF,20%,low_temp,rising,medium,17,1.789,2.032,-0.2658,0.931
+LOCF,20%,normal,stable,short,3,0.589,0.6,-24.8225,0.589
+LOCF,20%,normal,crossing,medium,23,7.087,7.869,-4.2914,7.087
+LOCF,20%,extreme_high_temp,stable,short,5,0.374,0.454,-0.0015,-0.018
+LOCF,20%,normal,falling,short,5,1.215,1.589,-1.4086,1.215
+LOCF,20%,normal,rising,short,5,3.109,3.27,-9.4051,-3.109
+LOCF,20%,normal,crossing,short,5,0.605,0.634,-9.8944,0.605
+LOCF,20%,normal,stable,short,3,0.328,0.537,-0.4196,-0.292
+LOCF,20%,normal,crossing,long,25,4.485,5.548,-1.7973,4.447
+LOCF,20%,stagnant_wind,stable,short,5,0.401,0.487,-0.0263,-0.078
+LOCF,20%,normal,rising,short,3,1.75,1.899,-5.6355,-1.75
+LOCF,20%,extreme_high_temp,stable,short,5,0.093,0.108,-0.0936,0.032
+LOCF,20%,normal,rising,short,3,1.249,1.547,-0.5616,0.927
+LOCF,20%,normal,crossing,long,39,3.717,4.373,-0.4655,-2.464
+LOCF,20%,normal,crossing,medium,19,2.567,3.163,-1.914,-2.564
+LOCF,20%,extreme_high_temp,crossing,short,5,2.147,2.457,-3.2402,-2.147
+LOCF,20%,normal,falling,medium,12,0.994,1.325,-0.4352,0.73
+LOCF,20%,normal,crossing,long,25,1.723,2.826,-0.4013,-1.512
+LOCF,20%,normal,stable,long,37,4.35,5.36,-1.9297,-4.35
+LOCF,20%,normal,rising,long,47,3.697,4.238,-0.3098,-2.061
+LOCF,20%,normal,crossing,medium,17,4.302,5.266,-1.7537,4.203
+LOCF,20%,normal,crossing,medium,11,4.386,4.902,-2.1379,4.046
+LOCF,20%,normal,falling,short,1,1.127,1.127,,1.127
+LOCF,20%,high_temp,crossing,short,5,1.631,1.902,-2.7856,1.631
+LOCF,20%,high_temp,stable,short,5,0.619,0.642,-13.3347,-0.619
+LOCF,20%,extreme_high_temp,crossing,medium,17,2.09,2.369,-3.0741,-2.058
+LOCF,20%,normal,falling,medium,9,1.036,1.169,-0.0574,-0.272
+LOCF,20%,normal,stable,short,3,0.653,0.692,-8.1866,-0.653
+LOCF,20%,extreme_high_temp,crossing,short,5,2.888,3.202,-4.3656,-2.888
+LOCF,20%,normal,crossing,long,29,3.66,3.995,-0.3061,-1.934
+LOCF,20%,normal,crossing,medium,17,5.097,5.78,-3.496,-5.097
+LOCF,20%,normal,stable,short,3,2.162,2.186,-45.2779,-2.162
+LOCF,20%,normal,stable,short,5,0.636,0.669,-9.4682,0.636
+LOCF,20%,extreme_high_temp,stable,short,3,0.26,0.384,-0.5457,0.228
+LOCF,20%,normal,stable,short,2,5.458,5.458,-6079.5437,-5.458
+LOCF,20%,normal,stable,short,1,0.118,0.118,,0.118
+LOCF,20%,normal,rising,short,3,1.472,1.634,-4.3103,-1.472
+LOCF,20%,normal,rising,long,29,4.092,4.459,-0.0006,-0.109
+LOCF,20%,normal,falling,short,3,1.179,1.377,-2.7392,1.179
+LOCF,20%,high_temp,crossing,medium,11,4.02,4.688,-2.7776,4.02
+LOCF,20%,low_temp,crossing,medium,17,1.065,1.183,-4.2923,-1.065
+LOCF,20%,extreme_high_temp,crossing,medium,9,3.791,4.387,-2.9461,-3.791
+LOCF,20%,normal,stable,long,44,4.432,5.661,-1.1412,-4.133
+LOCF,20%,normal,rising,short,5,2.294,2.501,-5.3108,-2.294
+LOCF,20%,normal,stable,short,5,0.308,0.357,-2.8813,-0.308
+LOCF,20%,stagnant_wind,crossing,short,5,2.832,3.407,-2.2356,-2.832
+LOCF,20%,normal,falling,medium,13,2.022,2.393,-2.5005,2.022
+LOCF,20%,normal,rising,short,3,2.93,3.038,-13.2822,-2.93
+LOCF,20%,normal,crossing,short,5,4.994,5.07,-32.5584,-4.994
+LOCF,20%,extreme_high_temp,crossing,short,5,2.488,3.354,-1.2236,2.488
+LOCF,20%,low_temp,stable,short,3,0.21,0.296,-0.7171,-0.191
+LOCF,20%,normal,stable,short,5,4.869,4.878,-271.276,-4.869
+LOCF,20%,extreme_high_temp,crossing,long,31,7.866,8.932,-3.278,-7.819
+LOCF,20%,normal,falling,medium,11,2.577,3.153,-2.0145,2.577
+LOCF,20%,stagnant_wind,crossing,medium,10,5.572,5.638,-42.3891,5.572
+LOCF,20%,normal,falling,long,25,1.554,1.702,-0.0522,0.379
+LOCF,20%,normal,stable,long,29,3.25,3.392,-11.1837,3.25
+LOCF,20%,normal,crossing,medium,21,2.224,2.647,-0.003,0.144
+LOCF,20%,extreme_high_temp,rising,medium,9,8.466,8.499,-128.0276,-8.466
+LOCF,20%,normal,stable,long,49,1.937,2.354,-0.1987,0.959
+LOCF,20%,normal,stable,medium,15,4.677,5.277,-2.5342,-4.468
+LOCF,20%,normal,crossing,short,4,4.951,5.68,-2.7012,-4.853
+LOCF,20%,high_temp,crossing,short,3,2.721,2.864,-9.2254,-2.721
+LOCF,20%,normal,stable,short,1,0.078,0.078,,0.078
+LOCF,20%,low_temp,stable,medium,21,0.229,0.284,-0.8748,0.194
+LOCF,20%,low_temp,crossing,medium,11,2.02,2.734,-0.6424,-1.71
+LOCF,20%,normal,stable,short,1,1.139,1.139,,-1.139
+LOCF,20%,normal,crossing,medium,11,5.515,6.161,-4.0278,-5.515
+LOCF,20%,normal,stable,long,49,1.943,2.485,-0.4511,-1.386
+LOCF,20%,normal,stable,medium,21,0.588,0.736,-0.0381,0.141
+LOCF,20%,normal,crossing,medium,13,4.477,5.094,-3.3918,4.477
+LOCF,20%,normal,rising,medium,12,3.99,4.922,-0.2199,-2.089
+LOCF,20%,normal,falling,short,1,1.783,1.783,,1.783
+LOCF,20%,normal,stable,short,5,4.413,4.504,-24.0215,4.413
+LOCF,20%,extreme_high_temp,falling,short,5,1.19,1.412,-0.9821,0.994
+LOCF,20%,stagnant_wind,crossing,medium,13,1.096,1.723,-0.648,-1.08
+LOCF,20%,stagnant_wind,stable,short,1,0.762,0.762,,-0.762
+LOCF,20%,low_temp,crossing,medium,21,1.643,1.835,-0.1352,0.633
+LOCF,20%,stagnant_wind,stable,short,1,0.119,0.119,,0.119
+LOCF,20%,low_temp,stable,short,3,0.231,0.238,-16.6293,0.231
+LOCF,20%,normal,crossing,short,5,2.461,2.746,-4.0896,-2.461
+LOCF,20%,normal,stable,short,3,0.901,0.962,-0.2594,0.437
+LOCF,20%,stagnant_wind,stable,short,4,0.979,1.022,-11.1427,0.979
+LOCF,20%,stagnant_wind,rising,short,3,1.33,1.691,-1.6197,-1.33
+LOCF,20%,normal,rising,medium,9,2.882,3.231,-0.5711,1.948
+LOCF,20%,normal,rising,short,5,1.313,1.374,-10.5621,-1.313
+LOCF,20%,stagnant_wind,rising,medium,13,1.472,1.721,-1.4673,1.327
+LOCF,20%,high_temp,rising,medium,23,2.484,2.874,-0.2082,1.193
+LOCF,20%,stagnant_wind,stable,medium,7,0.48,0.539,-3.8335,0.48
+LOCF,20%,normal,crossing,medium,7,3.491,3.664,-9.8904,3.491
+LOCF,20%,high_temp,stable,medium,7,0.374,0.419,-2.0565,0.344
+LOCF,20%,normal,stable,medium,19,0.608,0.684,-0.2886,0.324
+LOCF,20%,normal,falling,short,3,1.063,1.215,-3.2625,1.063
+LOCF,20%,normal,crossing,long,45,2.699,3.529,-1.2206,-2.616
+LOCF,20%,normal,stable,short,5,4.989,5.011,-111.3133,-4.989
+LOCF,20%,normal,stable,medium,7,0.683,0.809,-1.5107,-0.628
+LOCF,20%,normal,falling,medium,11,1.667,1.718,-16.1536,1.667
+LOCF,20%,high_temp,stable,medium,7,0.296,0.335,-1.7564,-0.268
+LOCF,20%,stagnant_wind,stable,medium,9,3.501,3.516,-114.8874,3.501
+LOCF,20%,low_temp,stable,long,40,3.66,4.096,-0.0678,1.032
+LOCF,20%,normal,stable,long,43,1.871,2.298,-0.0122,-0.252
+LOCF,20%,low_temp,crossing,short,5,1.355,1.387,-21.2049,1.355
+LOCF,20%,normal,stable,short,5,0.167,0.225,-0.1162,-0.073
+LOCF,20%,low_temp,stable,short,3,0.123,0.132,-0.0017,0.005
+LOCF,20%,normal,falling,short,5,2.654,3.25,-0.9982,2.297
+LOCF,20%,normal,falling,medium,7,2.871,2.974,-13.6608,2.871
+LOCF,20%,normal,stable,short,5,0.388,0.473,-2.0687,0.388
+LOCF,20%,low_temp,crossing,medium,7,0.453,0.84,-0.2574,-0.38
+LOCF,20%,high_temp,stable,short,1,0.196,0.196,,-0.196
+LOCF,20%,normal,stable,short,1,0.965,0.965,,0.965
+LOCF,20%,normal,falling,medium,11,2.461,2.664,-5.8323,2.461
+LOCF,20%,normal,crossing,short,3,2.58,3.189,-1.8926,2.58
+LOCF,20%,normal,falling,short,5,1.968,2.278,-2.9443,1.968
+LOCF,20%,normal,falling,long,40,3.627,4.01,-0.049,-0.866
+LOCF,20%,high_temp,crossing,medium,21,2.665,3.604,-0.718,2.33
+LOCF,20%,stagnant_wind,stable,short,3,0.999,1.003,-146.1379,0.999
+LOCF,20%,normal,crossing,medium,16,2.474,2.912,-0.0124,-0.322
+LOCF,20%,low_temp,crossing,long,33,0.375,0.447,-0.1646,0.168
+LOCF,20%,normal,rising,medium,14,2.432,2.589,-7.5195,-2.432
+LOCF,20%,extreme_high_temp,crossing,medium,7,3.208,3.533,-4.7053,-3.208
+LOCF,20%,stagnant_wind,rising,medium,15,2.04,2.398,-0.0136,-0.277
+LOCF,20%,normal,stable,medium,15,1.291,1.421,-2.554,-1.204
+LOCF,20%,normal,rising,short,1,1.284,1.284,,-1.284
+LOCF,20%,normal,stable,short,3,0.055,0.086,-0.3552,0.044
+LOCF,20%,normal,falling,medium,9,1.908,2.292,-2.2592,1.908
+LOCF,20%,normal,stable,short,3,1.037,1.05,-38.0543,1.037
+LOCF,20%,normal,stable,medium,17,3.183,3.369,-8.309,-3.183
+LOCF,20%,normal,stable,medium,21,1.369,1.57,-3.1732,-1.369
+LOCF,20%,normal,stable,long,33,2.706,3.46,-0.4039,-1.856
+LOCF,20%,normal,stable,short,5,0.463,0.514,-4.325,0.463
+LOCF,20%,stagnant_wind,falling,short,3,1.048,1.27,-2.1309,1.048
+LOCF,20%,stagnant_wind,crossing,medium,13,2.256,3.092,-0.2384,-1.357
+LOCF,20%,normal,stable,short,3,0.326,0.338,-12.708,-0.326
+LOCF,20%,extreme_high_temp,stable,medium,7,1.032,1.126,-5.2258,-1.032
+LOCF,20%,normal,falling,short,5,2.302,2.692,-2.7173,2.302
+LOCF,20%,normal,stable,short,3,0.342,0.353,-14.5086,0.342
+LOCF,20%,low_temp,crossing,medium,22,6.385,6.61,-13.925,6.385
+LOCF,20%,normal,stable,short,1,1.22,1.22,,-1.22
+LOCF,20%,normal,crossing,medium,20,2.143,2.319,-0.5792,1.404

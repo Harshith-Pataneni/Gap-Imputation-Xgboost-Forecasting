@@ -1,0 +1,5 @@
+Missing_%,Overall_Mean,Gap_Mean,NonGap_Mean,Mean_Difference,Z_Score,Frac_Extreme_In_Gaps,Frac_Extreme_Overall,Overrepresentation_Factor
+5%,26.977,26.576,26.998,-0.422,-0.092,0.2723,0.25,1.089
+10%,26.977,27.04,26.97,0.071,0.015,0.2552,0.25,1.021
+15%,26.977,27.265,26.926,0.339,0.066,0.2738,0.25,1.095
+20%,26.977,27.068,26.954,0.115,0.021,0.2645,0.25,1.058

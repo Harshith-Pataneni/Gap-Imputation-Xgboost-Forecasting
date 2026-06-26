@@ -1,0 +1,5 @@
+Boundary,Best,Best_RMSE,Worst,Worst_RMSE,Linear_RMSE,Spline_RMSE,Diagonal Climatology_RMSE,LOCF_RMSE
+stable,Linear,1.398,Spline,2.556,1.398,2.556,1.596,1.697
+rising,Diagonal Climatology,2.096,LOCF,3.414,2.098,3.241,2.096,3.414
+falling,Linear,1.039,LOCF,2.261,1.039,1.845,2.103,2.261
+crossing,Diagonal Climatology,1.786,LOCF,3.666,1.965,2.737,1.786,3.666

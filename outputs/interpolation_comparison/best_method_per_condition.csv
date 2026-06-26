@@ -1,0 +1,5 @@
+Condition,Best,Best_RMSE,Worst,Worst_RMSE,Linear_RMSE,Spline_RMSE,Diagonal Climatology_RMSE,LOCF_RMSE
+extreme_high_temp,Linear,1.709,LOCF,3.464,1.709,2.795,1.994,3.464
+high_temp,Linear,1.82,LOCF,4.186,1.82,2.341,2.577,4.186
+low_temp,Linear,1.574,Spline,2.571,1.574,2.571,1.735,2.04
+normal,Diagonal Climatology,1.825,LOCF,2.933,1.838,2.821,1.825,2.933

@@ -1,0 +1,4 @@
+Length,Best,Best_RMSE,Worst,Worst_RMSE,Linear_RMSE,Spline_RMSE,Diagonal Climatology_RMSE,LOCF_RMSE
+short,Linear,0.654,Diagonal Climatology,1.699,0.654,1.65,1.699,1.557
+medium,Diagonal Climatology,1.775,LOCF,3.267,1.816,2.488,1.775,3.267
+long,Diagonal Climatology,1.969,Spline,4.862,3.348,4.862,1.969,3.945

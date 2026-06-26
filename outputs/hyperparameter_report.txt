@@ -1,0 +1,59 @@
+======================================================================
+  XGBOOST HYPERPARAMETER TUNING REPORT
+  Chronological 80/10/10 | Multivariate lags (ACF + cross-corr)
+======================================================================
+
+  Best validation RMSE: 0.3189 degC
+
+  LAG FEATURES:
+    AirTC own lags : [1, 2, 3, 4, 6, 12, 48] (ACF/PACF justified)
+    RH lags        : [1, 2, 4, 6, 12, 48] (cross-corr r=-0.68 to -0.65)
+    Wind Speed lags: [1, 4, 6, 48] (cross-corr peak at lag 4-6)
+    Wind Dir lags  : [1, 6, 12] (sig. lags only, on sin/cos)
+
+----------------------------------------------------------------------
+
+  PARAMETER : n_estimators
+  VALUE     : 350
+  REASON    : Number of boosting trees. Searched 200-1000.
+----------------------------------------------------------------------
+
+  PARAMETER : learning_rate
+  VALUE     : 0.093117
+  REASON    : Shrinkage per tree. Log scale 0.01-0.2.
+----------------------------------------------------------------------
+
+  PARAMETER : max_depth
+  VALUE     : 4
+  REASON    : Max tree depth. Searched 3-10.
+----------------------------------------------------------------------
+
+  PARAMETER : subsample
+  VALUE     : 0.716373
+  REASON    : Row subsampling per tree. Searched 0.5-1.0.
+----------------------------------------------------------------------
+
+  PARAMETER : colsample_bytree
+  VALUE     : 0.905952
+  REASON    : Feature subsampling per tree. Searched 0.4-1.0.
+----------------------------------------------------------------------
+
+  PARAMETER : min_child_weight
+  VALUE     : 9
+  REASON    : Min samples in a leaf. Searched 1-10.
+----------------------------------------------------------------------
+
+  PARAMETER : reg_alpha
+  VALUE     : 0.107882
+  REASON    : L1 regularisation. Log scale 1e-4 to 10.
+----------------------------------------------------------------------
+
+  PARAMETER : reg_lambda
+  VALUE     : 0.011559
+  REASON    : L2 regularisation. Log scale 1e-4 to 10.
+----------------------------------------------------------------------
+
+  PARAMETER : gamma
+  VALUE     : 1.697958
+  REASON    : Min loss reduction for a split. Searched 0-5.
+----------------------------------------------------------------------
