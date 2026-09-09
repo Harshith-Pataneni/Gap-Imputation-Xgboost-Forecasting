@@ -73,14 +73,41 @@ print("\n=== ACF/PACF + Cross-Correlation Lag Feature Justification ===")
 xgboost_model.plot_acf_pacf_lag_selection(df_clean)
 
 # HYPERPARAMETER TUNING — chronological 80/10/10
+# Tuned independently for the base model here; each imputation method +
+# missing-data level gets its own independent tuning run in run_method()
+# below, instead of all of them reusing these base-model hyperparameters.
 print("\n=== Hyperparameter Tuning (Optuna, Chronological 80/10/10) ===")
-xgboost_model.tune_hyperparameters(df_clean, n_trials=25)
+base_params = xgboost_model.tune_hyperparameters(
+    df_clean, n_trials=25, test_start=TEST_START, report_tag='base')
 
-# BASE MODEL
+# BASE MODEL — averaged over the same seeds used for every imputation
+# method below, so base-vs-method comparisons are apples-to-apples.
 print("\n=== Base Model (clean data, chronological, lag features) ===")
-base_results = xgboost_model.train_and_evaluate(df_clean)
+_BASE_SEEDS = [42, 7, 13, 21, 99]
+_base_maes, _base_rmses, _base_r2s, _base_biases = [], [], [], []
+base_results = None
+for _seed in _BASE_SEEDS:
+    _r = xgboost_model.train_and_evaluate(df_clean, block_seed=_seed,
+                                          test_start=TEST_START,
+                                          params=base_params)
+    _base_maes.append(_r["mae"]);  _base_rmses.append(_r["rmse"])
+    _base_r2s.append(_r["r2"]);    _base_biases.append(_r["bias"])
+    base_results = _r
+
+_mean_mae,  _std_mae  = float(np.mean(_base_maes)),  float(np.std(_base_maes))
+_mean_rmse, _std_rmse = float(np.mean(_base_rmses)), float(np.std(_base_rmses))
+_mean_r2,   _std_r2   = float(np.mean(_base_r2s)),   float(np.std(_base_r2s))
+_mean_bias, _std_bias = float(np.mean(_base_biases)),float(np.std(_base_biases))
+base_results.update({
+    "mae": _mean_mae, "rmse": _mean_rmse, "r2": _mean_r2, "bias": _mean_bias,
+    "mae_std": _std_mae, "rmse_std": _std_rmse,
+    "r2_std": _std_r2, "bias_std": _std_bias,
+})
+print(f"  Base Model: RMSE={_mean_rmse:.3f}+/-{_std_rmse:.3f} "
+      f"over {len(_BASE_SEEDS)} seeds")
+
 xgboost_model.plot_results(base_results,
-    title="Base Model — Chronological 80/10/10 (Lag Features)",
+    title=f"Base Model — Chronological 80/10/10 (Lag Features, {len(_BASE_SEEDS)} seeds)",
     out_path=os.path.join(RES, "base_model.png"))
 xgboost_model.plot_residuals(base_results, "Base Model", "base")
 xgboost_model.plot_feature_importance(base_results, "Base Model", "base")
@@ -96,7 +123,8 @@ xgboost_model.plot_full_dataset_split(base_results, df_indexed, tag='base')
 # FORECAST CONFIDENCE INTERVALS
 print("\n=== Forecast Confidence Intervals ===")
 xgboost_model.forecast_confidence_intervals(
-    df_clean, n_bootstrap=30, show_steps=48, tag='base')
+    df_clean, n_bootstrap=30, show_steps=48, tag='base',
+    test_start=TEST_START, params=base_params)
 
 # INDEXED DATA
 df_train_only = df_indexed[df_indexed.index <  TEST_START]
@@ -261,14 +289,30 @@ def evaluate_recovery(df_interpolated, gap_row_sets, method_name, pct_label):
 
 # RUN METHOD
 def run_method(method_name, df_train_interp, pct_label, pct_tag):
+    """Train/evaluate XGBoost across all seeds for one imputation method and
+    missing-data level, then save its result plots and summary metrics.
+
+    Hyperparameters are tuned fresh for this specific (method, missing %)
+    combination — different imputation methods reconstruct the gaps with
+    different data characteristics, so hyperparameters are not assumed to
+    transfer from the base model or from another method. The tuned params
+    are reused across all seeds below; only block_seed (and therefore the
+    model's random_state) varies per seed.
+    """
     df_full = pd.concat([df_train_interp, df_test_only])
     df_full = df_full.reset_index().rename(columns={"index": "TIMESTAMP"})
     tag     = f"{method_name.lower().replace(' ', '_')}_{pct_tag}"
 
+    print(f"  [Optuna] Tuning hyperparameters for {method_name} ({pct_label})...")
+    method_params = xgboost_model.tune_hyperparameters(
+        df_full, n_trials=25, test_start=TEST_START, report_tag=tag)
+
     seed_maes, seed_rmses, seed_r2s, seed_biases = [], [], [], []
     last_r = None
     for seed in SEEDS:
-        r = xgboost_model.train_and_evaluate(df_full, block_seed=seed)
+        r = xgboost_model.train_and_evaluate(df_full, block_seed=seed,
+                                             test_start=TEST_START,
+                                             params=method_params)
         seed_maes.append(r["mae"]); seed_rmses.append(r["rmse"])
         seed_r2s.append(r["r2"]);   seed_biases.append(r["bias"])
         last_r = r
