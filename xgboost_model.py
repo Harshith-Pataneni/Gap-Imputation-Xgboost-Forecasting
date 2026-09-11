@@ -334,15 +334,40 @@ def build_features(df_input, target='AirTC_18m'):
 
 
 # CHRONOLOGICAL 80/10/10 SPLIT
-def _chrono_split(df):
-    df  = df.sort_values("TIMESTAMP").reset_index(drop=True)
-    n   = len(df)
-    n_train = int(n * 0.80)
-    n_val   = int(n * 0.10)
+def _chrono_split(df, test_start=None):
+    """
+    Chronological train/val/test split.
 
-    train_df = df.iloc[:n_train].reset_index(drop=True)
-    val_df   = df.iloc[n_train:n_train + n_val].reset_index(drop=True)
-    test_df  = df.iloc[n_train + n_val:].reset_index(drop=True)
+    If `test_start` is given, the test set is exactly the rows with
+    TIMESTAMP >= test_start (the fixed, dataset-wide hold-out boundary),
+    and the remaining rows are split 80/10 into train/val. This guarantees
+    no row at or after test_start can ever land in train or val — without
+    this, a plain fractional 80/10/10 split of a concatenated
+    (imputed-train + raw-test) frame lets part of the intended held-out
+    test period leak into the validation slice whenever test_start doesn't
+    fall exactly at the 90% mark of the data (it doesn't here — it's ~82%).
+
+    If `test_start` is None, falls back to a fractional 80/10/10 split of
+    the whole dataframe by row count (kept for backward compatibility).
+    """
+    df = df.sort_values("TIMESTAMP").reset_index(drop=True)
+
+    if test_start is not None:
+        pre_test_df = df[df["TIMESTAMP"] < test_start].reset_index(drop=True)
+        test_df     = df[df["TIMESTAMP"] >= test_start].reset_index(drop=True)
+
+        n        = len(pre_test_df)
+        n_train  = int(n * 0.80 / 0.90)   # 80/10 split of the pre-test pool
+        train_df = pre_test_df.iloc[:n_train].reset_index(drop=True)
+        val_df   = pre_test_df.iloc[n_train:].reset_index(drop=True)
+    else:
+        n       = len(df)
+        n_train = int(n * 0.80)
+        n_val   = int(n * 0.10)
+
+        train_df = df.iloc[:n_train].reset_index(drop=True)
+        val_df   = df.iloc[n_train:n_train + n_val].reset_index(drop=True)
+        test_df  = df.iloc[n_train + n_val:].reset_index(drop=True)
 
     print(f"  Train: {len(train_df):,} "
           f"({train_df['TIMESTAMP'].iloc[0].strftime('%d %b %Y')} to "
@@ -357,19 +382,34 @@ def _chrono_split(df):
 
 
 # OPTUNA TUNING
+#
+# NOTE: hyperparameter tuning is run separately for every imputation method
+# (and for the base/clean-data model) rather than once globally. Different
+# imputation methods change the structure of the training data (e.g. Spline
+# produces smooth curves, LOCF produces flat steps), so hyperparameters
+# tuned on one method's data are not assumed to transfer to another's.
+# `_BEST_PARAMS` is kept only as a last-resort fallback for callers that
+# don't pass `params` explicitly — it's whatever tune_hyperparameters() was
+# called with most recently, purely for convenience/backward compatibility.
 _BEST_PARAMS = None
 
-def tune_hyperparameters(df_clean, target='AirTC_18m', n_trials=25):
+def tune_hyperparameters(df_clean, target='AirTC_18m', n_trials=25,
+                          test_start=None, report_tag='base'):
+    """
+    Run a fresh Optuna search for XGBoost hyperparameters and return the
+    best params dict. Always performs a new search when called (no silent
+    caching/reuse across methods) — call once per imputation method /
+    missing-data level, then reuse the returned dict across that method's
+    seed runs. `report_tag` keeps each method's report/plots from
+    overwriting each other.
+    """
     global _BEST_PARAMS
 
-    if _BEST_PARAMS is not None:
-        print("  [Optuna] Using cached params.")
-        return _BEST_PARAMS
-
-    print(f"  [Optuna] Starting ({n_trials} trials, chronological 80/10/10) ...")
+    print(f"  [Optuna] Starting ({n_trials} trials, chronological 80/10/10, "
+          f"tag='{report_tag}') ...")
 
     df, FEATURES_ENC = build_features(df_clean, target)
-    train_df, val_df, _ = _chrono_split(df)
+    train_df, val_df, _ = _chrono_split(df, test_start=test_start)
 
     scaler    = StandardScaler()
     X_train_s = scaler.fit_transform(train_df[FEATURES_ENC].values)
@@ -405,31 +445,32 @@ def tune_hyperparameters(df_clean, target='AirTC_18m', n_trials=25):
         sampler=optuna.samplers.TPESampler(seed=42))
     study.optimize(objective, n_trials=n_trials, show_progress_bar=False)
 
-    _BEST_PARAMS = study.best_params
+    _BEST_PARAMS = study.best_params   # convenience fallback only
+    best_params  = _BEST_PARAMS
     print(f"  [Optuna] Best RMSE: {study.best_value:.4f}")
-    print(f"  [Optuna] Best params: {_BEST_PARAMS}")
+    print(f"  [Optuna] Best params: {best_params}")
 
     try:
         fig_hist = optuna.visualization.matplotlib\
             .plot_optimization_history(study)
         fig_hist.figure.savefig(
-            out(FOLDER_EXTRA, "optuna_optimisation_history.png"),
+            out(FOLDER_EXTRA, f"optuna_optimisation_history_{report_tag}.png"),
             dpi=150, bbox_inches="tight")
         plt.close(fig_hist.figure)
         fig_imp = optuna.visualization.matplotlib\
             .plot_param_importances(study)
         fig_imp.figure.savefig(
-            out(FOLDER_EXTRA, "optuna_param_importances.png"),
+            out(FOLDER_EXTRA, f"optuna_param_importances_{report_tag}.png"),
             dpi=150, bbox_inches="tight")
         plt.close(fig_imp.figure)
     except Exception as e:
         print(f"  [Optuna] Could not save plots: {e}")
 
-    _write_hyperparam_report(_BEST_PARAMS, study.best_value)
-    return _BEST_PARAMS
+    _write_hyperparam_report(best_params, study.best_value, report_tag)
+    return best_params
 
 
-def _write_hyperparam_report(params, best_rmse):
+def _write_hyperparam_report(params, best_rmse, report_tag='base'):
     explanations = {
         "n_estimators":     "Number of boosting trees. Searched 200-1000.",
         "learning_rate":    "Shrinkage per tree. Log scale 0.01-0.2.",
@@ -443,8 +484,9 @@ def _write_hyperparam_report(params, best_rmse):
     }
     lines = [
         "=" * 70,
-        "  XGBOOST HYPERPARAMETER TUNING REPORT",
+        f"  XGBOOST HYPERPARAMETER TUNING REPORT — {report_tag}",
         "  Chronological 80/10/10 | Multivariate lags (ACF + cross-corr)",
+        "  (tuned independently for this imputation method / data level)",
         "=" * 70,
         f"\n  Best validation RMSE: {best_rmse:.4f} degC\n",
         "  LAG FEATURES:",
@@ -460,7 +502,7 @@ def _write_hyperparam_report(params, best_rmse):
                   f"  REASON    : {explanations.get(param, 'N/A')}",
                   "-" * 70]
     
-    path = out(OUTPUT_ROOT, "hyperparameter_report.txt")
+    path = out(OUTPUT_ROOT, f"hyperparameter_report_{report_tag}.txt")
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w") as f:
         f.write("\n".join(lines))
@@ -468,11 +510,23 @@ def _write_hyperparam_report(params, best_rmse):
 
 
 # TRAIN & EVALUATE — chronological 80/10/10
-def train_and_evaluate(df_input, target='AirTC_18m', block_seed=42):
+def train_and_evaluate(df_input, target='AirTC_18m', block_seed=42,
+                        test_start=None, params=None):
+    """
+    Fit XGBoost on the chronological split and return test-set metrics.
+
+    `block_seed` actually drives the model's random_state (previously it
+    was accepted but silently ignored — every call trained with
+    random_state=42 regardless, which made repeated "multi-seed" runs
+    produce identical results). Pass `params` explicitly with the dict
+    from this method's own tune_hyperparameters() call; `test_start`
+    should be the fixed dataset-wide boundary so the test set never
+    includes rows that were part of validation for another call.
+    """
     global _BEST_PARAMS
 
     df, FEATURES_ENC = build_features(df_input, target)
-    train_df, val_df, test_df = _chrono_split(df)
+    train_df, val_df, test_df = _chrono_split(df, test_start=test_start)
 
     X_train = train_df[FEATURES_ENC].values
     y_train = train_df[target].values
@@ -488,13 +542,14 @@ def train_and_evaluate(df_input, target='AirTC_18m', block_seed=42):
     X_val_s   = scaler.transform(X_val)
     X_test_s  = scaler.transform(X_test)
 
-    model_params = dict(_BEST_PARAMS, random_state=42,
+    _effective_params = params if params is not None else _BEST_PARAMS
+    model_params = dict(_effective_params, random_state=block_seed,
                         n_jobs=-1, verbosity=0) \
-        if _BEST_PARAMS else dict(
+        if _effective_params else dict(
             n_estimators=500, learning_rate=0.05, max_depth=7,
             subsample=0.8, colsample_bytree=0.8,
             reg_alpha=0.1, reg_lambda=1.0,
-            random_state=42, n_jobs=-1, verbosity=0)
+            random_state=block_seed, n_jobs=-1, verbosity=0)
 
     model = XGBRegressor(**model_params)
     model.fit(X_train_s, y_train,
@@ -741,7 +796,7 @@ VAR_COLORS = {
 
 def forecast_confidence_intervals(df_input, target='AirTC_18m',
                                    n_bootstrap=30, show_steps=48,
-                                   tag='base'):
+                                   tag='base', test_start=None, params=None):
     """
     One-step-ahead forecast with bootstrap confidence intervals.
     At each step, all lag features come from actual observed data.
@@ -752,15 +807,16 @@ def forecast_confidence_intervals(df_input, target='AirTC_18m',
 
     print(f"\n  [Forecast CI] One-step-ahead bootstrap forecast ({tag})...")
 
-    model_params = dict(_BEST_PARAMS, random_state=42,
+    _effective_params = params if params is not None else _BEST_PARAMS
+    model_params = dict(_effective_params, random_state=42,
                         n_jobs=-1, verbosity=0) \
-        if _BEST_PARAMS else dict(
+        if _effective_params else dict(
             n_estimators=300, learning_rate=0.05, max_depth=5,
             subsample=0.8, colsample_bytree=0.8,
             random_state=42, n_jobs=-1, verbosity=0)
 
     df, FEATURES_ENC = build_features(df_input, target)
-    train_df, val_df, test_df = _chrono_split(df)
+    train_df, val_df, test_df = _chrono_split(df, test_start=test_start)
 
     # use first show_steps rows of test set as the forecast window
     test_sorted  = test_df.sort_values('TIMESTAMP').reset_index(drop=True)
